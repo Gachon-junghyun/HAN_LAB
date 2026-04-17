@@ -21,34 +21,51 @@ _ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(_ROOT))
 
 from core.chart import plot_combined_chart
+from core.finance import OHLCVDownloader
 
-# ohlcv_cache 기본 경로 (GIT_CHART 레포 기준)
-_DEFAULT_CACHE = Path("C:/Users/joyps/Desktop/GIT_CHART/ChartWithLlm/ohlcv_cache")
+# ohlcv_cache 기본 경로 (HAN_LAB 루트 기준)
+_DEFAULT_CACHE = _ROOT / "ohlcv_cache"
 
 
 def load_pkl(code: str | None, cache_dir: Path = _DEFAULT_CACHE) -> tuple[pd.DataFrame, str]:
     """
-    ohlcv_cache/ 에서 pkl 로드 후 정규화된 DataFrame과 종목 코드를 반환.
+    ohlcv_cache/ 에서 pkl 로드. 파일이 없으면 core 기능을 사용하여 다운로드 후 로드.
 
     Parameters
     ----------
     code      : 종목 코드 (예: "005930"). None 이면 첫 번째 pkl 사용.
     cache_dir : pkl 파일이 있는 폴더 경로.
     """
+    downloader = OHLCVDownloader(cache_dir=cache_dir, period="1y")
+
     if code:
-        pkl_path = cache_dir / f"{code.zfill(6)}.pkl"
+        code = code.zfill(6)
+        pkl_path = cache_dir / f"{code}.pkl"
+        
+        # 캐시가 없으면 다운로드 시도
         if not pkl_path.exists():
-            sys.exit(f"캐시 없음: {pkl_path}")
+            print(f"캐시 없음: {code}. 데이터를 다운로드합니다...")
+            # 종목명을 알 수 없으므로 코드로 대체 (yf.download는 코드만 있어도 작동)
+            ok, success, msg = downloader.download_one({"code": code, "name": code})
+            if not success:
+                sys.exit(f"데이터 다운로드 실패: {msg}")
     else:
         pkls = sorted(cache_dir.glob("*.pkl"))
         if not pkls:
-            sys.exit(f"캐시 폴더에 pkl 파일이 없습니다: {cache_dir}")
-        pkl_path = pkls[0]
+            # 기본 종목(삼성전자)이라도 다운로드 시도
+            print("캐시 폴더가 비어 있습니다. 기본 종목(삼성전자)을 다운로드합니다...")
+            code = "005930"
+            ok, success, msg = downloader.download_one({"code": code, "name": "삼성전자"})
+            if not success:
+                sys.exit("캐시가 없고 기본 종목 다운로드에도 실패했습니다.")
+            pkl_path = cache_dir / f"{code}.pkl"
+        else:
+            pkl_path = pkls[0]
 
     with open(pkl_path, "rb") as f:
         df = pickle.load(f)
 
-    # 컬럼 정규화
+    # 컬럼 정규화 (core/finance/ohlcv.py 의 처리 방식과 일치시킴)
     if isinstance(df.columns, pd.MultiIndex):
         df.columns = df.columns.get_level_values(0)
     df.columns = df.columns.str.lower()

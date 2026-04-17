@@ -13,3 +13,5 @@ build/
 Thumbs.db
 gemini_check.md
 .claude/
+test_ohlcv_cache/
+ohlcv_cache/
