@@ -13,3 +13,6 @@ print()
 
 print(df5[['Math', 'Eng']])  # 특정 열 선택
 print(df5[(df5['Math'] > 50) & (df5['Eng'] > 50)])  # 조건에 맞는 행 선택
+
+df5['Total'] = df5.sum(axis=1)  # 새로운 열 추가
+print(df5)
