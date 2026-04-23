@@ -18,5 +18,11 @@
 #   rsi(_, 14) < 30 && volume_change_pct(_) > 50
 #   macd_hist(_) > 0 && close(_) > ma(_, 20)
 #   close(_) < bb_lower(_) && obv_change_pct(_) > 0
+#
+# 조건을 여러 줄 쓰면 각각 별도 스크리닝 → data/{날짜}/1/, /2/, ... 로 저장됨
 
-rsi(_, 14) < 35 && volume_change_pct(_) > 30
+# [1] OBV 급등 (매수 압력 포착)
+obv_change_pct(_) > 15
+
+# [2] RSI 과매도 단순 필터
+rsi(_, 14) < 45
