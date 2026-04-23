@@ -8,7 +8,6 @@
 #   obv(_, 17, 1) > 0 && obv(_, 17) < 0        ← shift: 마지막 인자가 N이면 N일 전
 
 import operator
-import pickle
 import re
 from pathlib import Path
 from typing import Any, Optional
@@ -25,12 +24,9 @@ _DEFAULT_CACHE_DIR = Path("ohlcv_cache")
 
 
 def _load_ohlcv(code: str, cache_dir: Path = _DEFAULT_CACHE_DIR) -> pd.DataFrame:
-    pkl_path = cache_dir / f"{code}.pkl"
-    if pkl_path.exists():
-        df = pickle.load(open(pkl_path, "rb"))
-    else:
-        df = yf.download(f"{code}.KS", period="1y", progress=False)
-    if df.empty:
+    # 스크리너는 항상 최신 데이터 사용
+    df = yf.download(f"{code}.KS", period="1y", progress=False)
+    if df is None or df.empty:
         return pd.DataFrame()
     if isinstance(df.columns, pd.MultiIndex):
         df.columns = df.columns.get_level_values(0)

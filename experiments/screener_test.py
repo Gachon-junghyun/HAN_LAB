@@ -1,7 +1,7 @@
 # FILE: experiments/screener_test.py
 from core.screener import Screener
 
-s = Screener(cache_dir="ohlcv_cache")
+s = Screener()
 
 # ── 1. 단일 종목 지표 확인 ─────────────────────────────────────────────────
 code = "005930"  # 삼성전자

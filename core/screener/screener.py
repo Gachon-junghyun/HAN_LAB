@@ -5,7 +5,6 @@
 
 from __future__ import annotations
 
-import pickle
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
@@ -17,7 +16,6 @@ from .expression import (
     clear_cache,
     evaluate,
     parse_expression,
-    set_cache_dir,
 )
 from .indicators import INDICATOR_REGISTRY, compute_indicator
 
@@ -44,10 +42,8 @@ class Screener:
         matched = screener.get_matched(results)
     """
 
-    def __init__(self, cache_dir: str | Path = "ohlcv_cache"):
-        self._cache_dir = Path(cache_dir)
+    def __init__(self):
         self._kospi200: Optional[pd.DataFrame] = None
-        set_cache_dir(self._cache_dir)
 
     # ── 종목 리스트 ────────────────────────────────────────────────────────
     @property
@@ -73,12 +69,8 @@ class Screener:
 
     # ── OHLCV 로드 (pkl 캐시 우선 → yfinance 폴백) ───────────────────────
     def get_ohlcv(self, code: str) -> pd.DataFrame:
-        """pkl 캐시(OHLCVDownloader 저장 형식) → yfinance 직접 다운로드 순서로 시도"""
-        pkl_path = self._cache_dir / f"{code}.pkl"
-        if pkl_path.exists():
-            df = pickle.load(open(pkl_path, "rb"))
-        else:
-            df = yf.download(f"{code}.KS", period="1y", progress=False)
+        """항상 yfinance 에서 최신 데이터 다운로드"""
+        df = yf.download(f"{code}.KS", period="1y", progress=False)
         if df is None or df.empty:
             return pd.DataFrame()
         if isinstance(df.columns, pd.MultiIndex):
