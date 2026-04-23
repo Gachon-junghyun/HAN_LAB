@@ -15,7 +15,7 @@ expr = 'rsi("005930", 14) < 60'
 print(f"\n수식 [{expr}] → {eval_expression(expr)}")
 
 # ── 3. 전체 스캔 (조건 바꿔가며 테스트) ──────────────────────────────────
-expression = "rsi(_, 14) < 35 && obv_change_pct(_) > 0"
+expression = "rsi(_, 14) < 50"
 print(f"\n스크리닝: {expression}")
 results = s.screen(expression, show_indicators=["rsi", "vwap", "obv_change_pct"])
 
