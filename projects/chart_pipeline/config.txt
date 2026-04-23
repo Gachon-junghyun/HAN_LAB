@@ -1,0 +1,22 @@
+# 차트 분석 파이프라인 — 스크리너 조건 설정
+# 아래 expression 한 줄만 수정하면 됩니다.
+#
+# 사용 가능 지표 예시:
+#   rsi(_, 14)            RSI (14일)
+#   ma(_, 20)             20일 이동평균
+#   macd_hist(_)          MACD 히스토그램
+#   volume_change_pct(_)  거래량 변화율 (%)
+#   obv_change_pct(_)     OBV 변화율 (%)
+#   close(_)              현재가
+#   bb_upper(_)           볼린저 상단
+#   bb_lower(_)           볼린저 하단
+#
+# 연산자: && (AND)  || (OR)  ! (NOT)
+# 비교:   >  <  >=  <=  ==  !=
+#
+# 예시:
+#   rsi(_, 14) < 30 && volume_change_pct(_) > 50
+#   macd_hist(_) > 0 && close(_) > ma(_, 20)
+#   close(_) < bb_lower(_) && obv_change_pct(_) > 0
+
+rsi(_, 14) < 35 && volume_change_pct(_) > 30
