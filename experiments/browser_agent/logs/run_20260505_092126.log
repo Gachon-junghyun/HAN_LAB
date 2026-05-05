@@ -1,0 +1,21 @@
+2026-05-05 09:21:26,815 [INFO] === AGENT START ===
+2026-05-05 09:21:26,815 [INFO] log file: C:\Users\fivep\OneDrive\Desktop\HAN_LAB\experiments\browser_agent\logs\run_20260505_092126.log
+2026-05-05 09:21:26,815 [INFO] GOAL    : 현재 페이지가 Bank of England Bank Rate 페이지면 done
+2026-05-05 09:21:26,815 [INFO] MODE    : action
+2026-05-05 09:21:26,815 [INFO] PROVIDER: gemini
+2026-05-05 09:21:26,846 [INFO] MODEL   : gemini-2.5-flash
+2026-05-05 09:21:27,750 [INFO] START URL: https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate
+2026-05-05 09:21:30,877 [INFO] START URL: https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate
+2026-05-05 09:21:33,094 [INFO] === STEP 1 ===
+2026-05-05 09:21:33,094 [INFO] URL  : https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate
+2026-05-05 09:21:33,094 [INFO] TITLE: Interest rates and Bank Rate: our latest decision | Bank of England
+2026-05-05 09:21:33,094 [INFO] --- INDEX ---
+2026-05-05 09:21:33,094 [INFO] [1]<a>Cookie policy</a>
+[2]<button type="button">Accept recommended cookies</button>
+[3]<button type="button">Proceed with necessary cookies only</button>
+2026-05-05 09:21:34,614 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-05 09:21:34,616 [INFO] RAW (attempt 1): '{"action": "done", "text": "현재 페이지가 Bank of England Bank Rate 페이지입니다."}'
+2026-05-05 09:21:34,616 [INFO] THOUGHT: 
+2026-05-05 09:21:34,616 [INFO] ACTION : {"action": "done", "text": "현재 페이지가 Bank of England Bank Rate 페이지입니다."}
+2026-05-05 09:21:34,616 [INFO] RESULT : DONE — 현재 페이지가 Bank of England Bank Rate 페이지입니다.
+2026-05-05 09:21:34,631 [INFO] === AGENT END ===

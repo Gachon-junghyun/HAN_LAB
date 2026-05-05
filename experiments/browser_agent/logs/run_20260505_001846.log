@@ -1,0 +1,149 @@
+2026-05-05 00:18:46,321 [INFO] === AGENT START ===
+2026-05-05 00:18:46,321 [INFO] log file: C:\Users\fivep\OneDrive\Desktop\HAN_LAB\experiments\browser_agent\logs\run_20260505_001846.log
+2026-05-05 00:18:46,321 [INFO] GOAL    : 상단 검색바에 'playwright' 입력 후 검색
+2026-05-05 00:18:46,321 [INFO] PROVIDER: ollama
+2026-05-05 00:18:46,331 [INFO] MODEL   : gemma4
+2026-05-05 00:18:47,365 [INFO] START URL: https://github.com
+2026-05-05 00:18:50,653 [INFO] === STEP 1 ===
+2026-05-05 00:18:50,653 [INFO] URL  : https://github.com/
+2026-05-05 00:18:50,653 [INFO] TITLE: GitHub · Change is constant. GitHub keeps you ahead. · GitHub
+2026-05-05 00:18:50,654 [INFO] --- INDEX ---
+2026-05-05 00:18:50,654 [INFO] [1]<a aria-label="Homepage"></a>
+[2]<button type="button">Platform</button>
+[3]<button type="button">Solutions</button>
+[4]<button type="button">Resources</button>
+[5]<button type="button">Open Source</button>
+[6]<button type="button">Enterprise</button>
+[7]<a>Pricing</a>
+[8]<button aria-label="Search or jump to…" type="button"></button>
+[9]<a>Sign in</a>
+[10]<a>Sign up</a>
+[11]<input id="hero_user_email" name="user_email" type="email">you@domain.com</input>
+[12]<button type="submit">Sign up for GitHub</button>
+[13]<a>Try GitHub Copilot</a>
+2026-05-05 00:19:00,579 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-05 00:19:00,580 [INFO] RAW (attempt 1): '{"thought": "사용자의 목표는 검색창에 \'playwright\'를 입력하고 검색하는 것입니다. 상단 검색 기능을 수행할 수 있는 [8] 버튼을 클릭하여 검색창을 활성화하겠습니다.", "action": "click", "index": 8, "text": ""}'
+2026-05-05 00:19:00,580 [INFO] THOUGHT: 사용자의 목표는 검색창에 'playwright'를 입력하고 검색하는 것입니다. 상단 검색 기능을 수행할 수 있는 [8] 버튼을 클릭하여 검색창을 활성화하겠습니다.
+2026-05-05 00:19:00,581 [INFO] ACTION : {"action": "click", "index": 8, "text": ""}
+2026-05-05 00:19:00,803 [INFO] RESULT : OK: clicked [8]
+2026-05-05 00:19:02,316 [INFO] === STEP 2 ===
+2026-05-05 00:19:02,316 [INFO] URL  : https://github.com/
+2026-05-05 00:19:02,316 [INFO] TITLE: GitHub · Change is constant. GitHub keeps you ahead. · GitHub
+2026-05-05 00:19:02,316 [INFO] --- INDEX ---
+2026-05-05 00:19:02,316 [INFO] [1]<input id="query-builder-test" name="query-builder-test" type="text" role="combobox"></input>
+[2]<ul id="query-builder-test-results" aria-label="Suggestions" role="listbox">Explore Enterprise Learn More Security Learn More Copilot Learn More Pricing Lea</ul>
+[3]<a>Search syntax tips</a>
+2026-05-05 00:19:07,303 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-05 00:19:07,303 [INFO] RAW (attempt 1): ''
+2026-05-05 00:19:07,303 [WARNING] [PARSE FAIL attempt 1/2] Expecting value: line 1 column 1 (char 0)
+2026-05-05 00:19:14,459 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-05 00:19:14,459 [INFO] RAW (attempt 2): '{"thought": "직전 스텝에서 활성화된 검색창 [1]에 검색어 \'playwright\'를 입력하겠습니다.", "action": "type", "index": 1, "text": "playwright"}'
+2026-05-05 00:19:14,459 [INFO] THOUGHT: 직전 스텝에서 활성화된 검색창 [1]에 검색어 'playwright'를 입력하겠습니다.
+2026-05-05 00:19:14,459 [INFO] ACTION : {"action": "type", "index": 1, "text": "playwright"}
+2026-05-05 00:19:14,472 [INFO] RESULT : OK: typed into [1] -> 'playwright'
+2026-05-05 00:19:16,000 [INFO] === STEP 3 ===
+2026-05-05 00:19:16,000 [INFO] URL  : https://github.com/
+2026-05-05 00:19:16,000 [INFO] TITLE: GitHub · Change is constant. GitHub keeps you ahead. · GitHub
+2026-05-05 00:19:16,001 [INFO] --- INDEX ---
+2026-05-05 00:19:16,001 [INFO] [1]<input id="query-builder-test" name="query-builder-test" type="text" role="combobox">playwright</input>
+[2]<button id="query-builder-test-clear-button" type="button" role="button"></button>
+[3]<ul id="query-builder-test-results" aria-label="Suggestions" role="listbox">playwright Search all of GitHub</ul>
+[4]<a>Search syntax tips</a>
+2026-05-05 00:19:24,377 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-05 00:19:24,377 [INFO] RAW (attempt 1): '{"thought": "검색 제안 목록 [3]에서 \'playwright Search all of GitHub\' 옵션을 클릭하여 검색을 실행합니다.", "action": "click", "index": 3, "text": ""}'
+2026-05-05 00:19:24,378 [INFO] THOUGHT: 검색 제안 목록 [3]에서 'playwright Search all of GitHub' 옵션을 클릭하여 검색을 실행합니다.
+2026-05-05 00:19:24,378 [INFO] ACTION : {"action": "click", "index": 3, "text": ""}
+2026-05-05 00:19:25,194 [INFO] RESULT : OK: clicked [3]
+2026-05-05 00:19:26,743 [INFO] === STEP 4 ===
+2026-05-05 00:19:26,743 [INFO] URL  : https://github.com/search?q=playwright&type=repositories
+2026-05-05 00:19:26,743 [INFO] TITLE: Repository search results · GitHub
+2026-05-05 00:19:26,743 [INFO] --- INDEX ---
+2026-05-05 00:19:26,743 [INFO] [1]<a aria-label="Homepage"></a>
+[2]<button type="button">Platform</button>
+[3]<button type="button">Solutions</button>
+[4]<button type="button">Resources</button>
+[5]<button type="button">Open Source</button>
+[6]<button type="button">Enterprise</button>
+[7]<a>Pricing</a>
+[8]<button aria-label="Search or jump to…" type="button"></button>
+[9]<a>Sign in</a>
+[10]<a>Sign up</a>
+[11]<button id="icon-button-c00e1729-0c0a-4894-9e19-4eab108c8dd9" type="button"></button>
+[12]<a id="_r_4_">Code ... (...) results</a>
+[13]<a id="_r_5_">Repositories 108k (108k) results</a>
+[14]<a id="_r_6_">Issues 165k (165k) results</a>
+[15]<a id="_r_7_">Pull requests 1M (1M) results</a>
+[16]<a id="_r_8_">Discussions 5k (5k) results</a>
+[17]<a id="_r_9_">Users 2k (2k) results</a>
+[18]<button id="_r_a_" type="button">More</button>
+[19]<a id="_r_c_">TypeScript</a>
+[20]<a id="_r_d_">JavaScript</a>
+[21]<a id="_r_e_">Python</a>
+[22]<a id="_r_f_">HTML</a>
+[23]<a id="_r_g_">Java</a>
+[24]<a id="_r_h_">C#</a>
+[25]<a id="_r_i_">Shell</a>
+[26]<a id="_r_j_">Dockerfile</a>
+[27]<a id="_r_k_">CSS</a>
+[28]<a id="_r_l_">Go</a>
+[29]<button id="_r_m_">More languages...</button>
+[30]<button id="_r_o_">Owner</button>
+[31]<button id="_r_p_">Size</button>
+[32]<button id="_r_q_">Number of followers</button>
+[33]<button id="_r_r_">Number of forks</button>
+[34]<button id="_r_s_">Number of stars</button>
+[35]<button id="_r_t_">Date created</button>
+[36]<button id="_r_u_">Date pushed</button>
+[37]<button id="_r_v_">Topic</button>
+[38]<button id="_r_10_">License</button>
+[39]<button id="_r_11_">Archived</button>
+[40]<a id="_r_12_">Public</a>
+[41]<a id="_r_13_">Private</a>
+[42]<a id="_r_14_">Advanced search</a>
+[43]<div aria-label="Draggable pane splitter" role="slider"></div>
+[44]<button id="_r_19_" type="button">Sort by: Best match</button>
+[45]<button id="_r_1i_" aria-label="Open column options" type="button"></button>
+[46]<a>microsoft/playwright</a>
+[47]<a>electron</a>
+[48]<a>javascript</a>
+[49]<a>testing</a>
+[50]<a>firefox</a>
+[51]<a>chrome</a>
+[52]<a aria-label="87935 stars">87.9k</a>
+[53]<a type="button">Star</a>
+[54]<a>microsoft/playwright-mcp</a>
+[55]<a>mcp</a>
+[56]<a>playwright</a>
+[57]<a aria-label="31986 stars">32k</a>
+[58]<a type="button">Star</a>
+[59]<a>microsoft/playwright-python</a>
+[60]<a>firefox</a>
+[61]<a>chromium</a>
+[62]<a>webkit</a>
+[63]<a>playwright</a>
+[64]<a aria-label="14580 stars">14.6k</a>
+[65]<a type="button">Star</a>
+[66]<a>microsoft/playwright-cli</a>
+[67]<a>playwright</a>
+[68]<a aria-label="9887 stars">9.9k</a>
+[69]<a type="button">Star</a>
+[70]<a>executeautomation/mcp-playwright</a>
+[71]<a aria-label="5488 stars">5.5k</a>
+[72]<a type="button">Star</a>
+[73]<a>akshayp7/playwright-typescript-playwright-test</a>
+[74]<a>docker</a>
+[75]<a>typescript</a>
+[76]<a>emulation</a>
+[77]<a>sonarqube</a>
+[78]<a>e2e-tests</a>
+[79]<a aria-label="677 stars">677</a>
+[80]<a type="button">Star</a>
+[81]<a>Explore sponsorable projects</a>
+2026-05-05 00:19:34,026 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-05 00:19:34,027 [INFO] RAW (attempt 1): ''
+2026-05-05 00:19:34,027 [WARNING] [PARSE FAIL attempt 1/2] Expecting value: line 1 column 1 (char 0)
+2026-05-05 00:19:43,162 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-05 00:19:43,162 [INFO] RAW (attempt 2): ''
+2026-05-05 00:19:43,162 [WARNING] [PARSE FAIL attempt 2/2] Expecting value: line 1 column 1 (char 0)
+2026-05-05 00:19:43,163 [ERROR] [LLM FAIL] Expecting value: line 1 column 1 (char 0)
+2026-05-05 00:19:43,175 [INFO] === AGENT END ===

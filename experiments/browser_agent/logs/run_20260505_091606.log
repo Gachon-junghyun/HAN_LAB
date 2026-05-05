@@ -1,0 +1,299 @@
+2026-05-05 09:16:06,556 [INFO] === AGENT START ===
+2026-05-05 09:16:06,556 [INFO] log file: C:\Users\fivep\OneDrive\Desktop\HAN_LAB\experiments\browser_agent\logs\run_20260505_091606.log
+2026-05-05 09:16:06,556 [INFO] GOAL    : 검색창을 열어 'Apple' 입력하고 검색 실행
+2026-05-05 09:16:06,556 [INFO] MODE    : action
+2026-05-05 09:16:06,556 [INFO] PROVIDER: gemini
+2026-05-05 09:16:06,588 [INFO] MODEL   : gemini-2.5-flash
+2026-05-05 09:16:07,670 [INFO] START URL: https://www.cnbc.com/
+2026-05-05 09:16:08,181 [WARNING] goto 실패: Page.goto: net::ERR_BLOCKED_BY_RESPONSE at https://www.cnbc.com/
+Call log:
+  - navigating to "https://www.cnbc.com/", waiting until "domcontentloaded"
+ (현재 페이지 그대로 진행)
+2026-05-05 09:16:08,182 [INFO] START URL: https://www.cnbc.com/
+2026-05-05 09:16:11,200 [INFO] === STEP 1 ===
+2026-05-05 09:16:11,200 [INFO] URL  : https://www.cnbc.com/world/?region=world
+2026-05-05 09:16:11,200 [INFO] TITLE: International Business, World News & Global Stock Market Analysis
+2026-05-05 09:16:11,200 [INFO] --- INDEX ---
+2026-05-05 09:16:11,200 [INFO] [1]<div id="onetrust-banner-sdk" aria-label="Cookie banner" role="region">This site is now part of Versant. By continuing to use this service, you agree t</div>
+[2]<a>Versant</a>
+[3]<a>Terms</a>
+[4]<a>Privacy Policy</a>
+[5]<a>here</a>
+[6]<a>Privacy Policy</a>
+[7]<a>Cookie Notice</a>
+[8]<button id="onetrust-accept-btn-handler">Continue</button>
+2026-05-05 09:16:12,308 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-05 09:16:12,309 [INFO] RAW (attempt 1): '{"action": "click", "index": 8, "thought": "쿠키 배너가 페이지를 가리고 있으므로, \'Continue\' 버튼을 클릭하여 배너를 닫아야 한다."}'
+2026-05-05 09:16:12,309 [INFO] THOUGHT: 쿠키 배너가 페이지를 가리고 있으므로, 'Continue' 버튼을 클릭하여 배너를 닫아야 한다.
+2026-05-05 09:16:12,309 [INFO] ACTION : {"action": "click", "index": 8}
+2026-05-05 09:16:12,551 [INFO] RESULT : OK: clicked [8]
+2026-05-05 09:16:15,267 [INFO] === STEP 2 ===
+2026-05-05 09:16:15,267 [INFO] URL  : https://www.cnbc.com/world/?region=world
+2026-05-05 09:16:15,267 [INFO] TITLE: International Business, World News & Global Stock Market Analysis
+2026-05-05 09:16:15,267 [INFO] --- INDEX ---
+2026-05-05 09:16:15,267 [INFO] [1]<button aria-label="Open Navigation Menu"></button>
+[2]<a>MARKETS</a>
+[3]<a>BUSINESS</a>
+[4]<a>INVESTING</a>
+[5]<a>TECH</a>
+[6]<a>POLITICS</a>
+[7]<a>VIDEO</a>
+[8]<a>INVESTING CLUB</a>
+[9]<a>PRO</a>
+[10]<a>LIVESTREAM</a>
+[11]<button aria-label="Search">Search quotes, news & videos</button>
+[12]<a>WATCHLIST</a>
+[13]<button title="Show Notifications">Show Notifications</button>
+[14]<a>SIGN IN</a>
+[15]<a>CREATE FREE ACCOUNT</a>
+[16]<button aria-label="Add markets banner"></button>
+[17]<button role="tab">ASIA</button>
+[18]<button role="tab">EUR</button>
+[19]<button role="tab">PRE-MKT</button>
+[20]<button role="tab">OIL</button>
+[21]<button role="tab">BONDS</button>
+[22]<button role="tab">GOLD</button>
+[23]<button role="tab">US</button>
+[24]<button role="tab">FX</button>
+[25]<button role="tab">CRYPTO</button>
+[26]<a>ASX 200* 8,697.10 UNCH LAST | 5/4/26 AET</a>
+[27]<a>NIKKEI* 59,513.12 Uptrend +228.20 +0.38% LAST | 5/1/26 JST</a>
+[28]<a>NIFTY 50* 24,119.30 UNCH LAST | 5/4/26 IST</a>
+[29]<a>HSI* 26,095.88 UNCH LAST | 5/4/26 CTT</a>
+[30]<a>SHANGHAI* 4,112.159 Uptrend +4.645 +0.11% LAST | 4/30/26 CTT</a>
+[31]<a>South Korean stocks hit fresh record, building on historic monthly rally in Apri</a>
+[32]<a title="U.S. futures">U.S. futures</a>
+[33]<a title="$900 million for World Cup">$900 million for World Cup</a>
+[34]<a title="Oil prices">Oil prices</a>
+[35]<a title="India energy">India energy</a>
+[36]<a title="Denmark grid overload">Denmark grid overload</a>
+[37]<a title="Iran attacks UAE; U.S. says it sank boats in Strait of Hormuz">Iran attacks UAE; U.S. says it sank boats in Strait of Hormuz</a>
+[38]<a title="Iran attacks UAE; U.S. says it sank boats in Strait of Hormuz">Iran attacks UAE; U.S. says it sank boats in Strait of Hormuz</a>
+[39]<a title="Traffic in the Strait of Hormuz won’t return to normal until August or later, according to Kalshi traders">Traffic in the Strait of Hormuz won’t return to normal until August or later, ac</a>
+[40]<a title="U.S. military denies Iran's claim it struck American warship in Strait of Hormuz">U.S. military denies Iran’s claim it struck American warship in Strait of Hormuz</a>
+[41]<a title="‘Misplaced euphoria’: Markets are sleepwalking into a recession amid Iran war oil price shock">‘Misplaced euphoria’: Markets are sleepwalking into a recession amid Iran war oi</a>
+[42]<a title="‘Misplaced euphoria’: Markets are sleepwalking into a recession amid Iran war oil price shock">‘Misplaced euphoria’: Markets are sleepwalking into a recession amid Iran war oi</a>
+[43]<a title="China is rewiring the Silicon Valley model — starting in Hong Kong">China is rewiring the Silicon Valley model — starting in Hong Kong</a>
+[44]<a title="China is rewiring the Silicon Valley model — starting in Hong Kong">China is rewiring the Silicon Valley model — starting in Hong Kong</a>
+[45]<a title="Tuesday's stock stories: What’s likely to move the market in the next session">Tuesday’s stock stories: What’s likely to move the market in the next session</a>
+[46]<a title="China is rewiring the Silicon Valley model — starting in Hong Kong">China is rewiring the Silicon Valley model — starting in Hong Kong</a>
+[47]<a title="Cramer's lightning round: TTM Technologies is 'a good one'">Cramer’s lightning round: TTM Technologies is ‘a good one’</a>
+[48]<a title="Andy Jassy says Amazon investors will be rewarded by all its AI spending">Andy Jassy says Amazon investors will be rewarded by all its AI spending</a>
+[49]<input id="QuoteFinder-searchInput" type="search">Search</input>
+[50]<button type="submit">Search</button>
+[51]<a>PLTR</a>
+[52]<button aria-label="Add To Watchlist"></button>
+[53]<a>US10Y</a>
+[54]<button aria-label="Add To Watchlist"></button>
+[55]<a>@CL.1</a>
+[56]<button aria-label="Add To Watchlist"></button>
+[57]<a>MARKET MOVERS</a>
+[58]<button id="market-tab-US" aria-label="US, tab 1 of 3" role="tab">US</button>
+[59]<button id="market-tab-EUR" aria-label="EUR, tab 2 of 3" role="tab">EUR</button>
+[60]<button id="market-tab-ASIA" aria-label="ASIA, tab 3 of 3" role="tab">ASIA</button>
+[61]<a>TSN 68.75 Tyson Foods Inc +5.07(+7.96%)</a>
+[62]<button aria-label="Add To Watchlist"></button>
+[63]<a>MU 576.45 Micron Technology Inc +34.24(+6.31%)</a>
+[64]<button aria-label="Add To Watchlist"></button>
+[65]<a>COIN 202.99 Coinbase Global +11.74(+6.14%)</a>
+[66]<button aria-label="Add To Watchlist"></button>
+[67]<a>UPS 96.31 United Parcel Service Inc -11.26(-10.47%)</a>
+[68]<button aria-label="Add To Watchlist"></button>
+[69]<button aria-label="Add To Watchlist"></button>
+[70]<a>Stock futures are little changed as Wall Street eyes latest developments in Midd</a>
+[71]<a>Lisa Kailai Han</a>
+[72]<a>India is burning more coal as extreme heat and the Iran war squeeze energy suppl</a>
+[73]<a>Priyanka Salve</a>
+[74]<a>Emerging markets, industrial stocks and utilities: Three investment strategies f</a>
+[75]<a>Michael Considine</a>
+[76]<a>Dow tumbles 550 points as oil prices rise and investors fear Iran conflict could</a>
+[77]<a>Sean Conlon</a>
+[78]<a>‘Bubble effect’: Weight loss drug fueled growth is putting the pharma sector at </a>
+[79]<a>Elsa Ohlen</a>
+[80]<a>How Chinese carmaker Geely put roots in the U.S.</a>
+2026-05-05 09:16:16,311 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-05 09:16:16,311 [INFO] RAW (attempt 1): '{"action": "click", "index": 11, "thought": "페이지에 검색창이 바로 보이지 않으므로, \'Search\' 버튼을 클릭하여 검색 기능을 활성화해야 한다."}'
+2026-05-05 09:16:16,311 [INFO] THOUGHT: 페이지에 검색창이 바로 보이지 않으므로, 'Search' 버튼을 클릭하여 검색 기능을 활성화해야 한다.
+2026-05-05 09:16:16,311 [INFO] ACTION : {"action": "click", "index": 11}
+2026-05-05 09:16:16,543 [INFO] RESULT : OK: clicked [11]
+2026-05-05 09:16:18,089 [INFO] === STEP 3 ===
+2026-05-05 09:16:18,089 [INFO] URL  : https://www.cnbc.com/world/?region=world
+2026-05-05 09:16:18,089 [INFO] TITLE: International Business, World News & Global Stock Market Analysis
+2026-05-05 09:16:18,089 [INFO] --- INDEX ---
+2026-05-05 09:16:18,089 [INFO] [1]<button aria-label="Open Navigation Menu"></button>
+[2]<a>MARKETS</a>
+[3]<a>BUSINESS</a>
+[4]<a>INVESTING</a>
+[5]<a>TECH</a>
+[6]<a>POLITICS</a>
+[7]<a>VIDEO</a>
+[8]<input type="search">Search quotes, news, & videos</input>
+[9]<button id="querySearchButton" type="submit">Search</button>
+[10]<a>PLTR | Palantir Technologies Inc | 142.09 | -3.94 (-2.70%)</a>
+[11]<a>US10Y | U.S. 10 Year Treasury | 4.432% | -0.014</a>
+[12]<a>@CL.1 | WTI Crude (Jun′26) | 104.68 | -1.74 (-1.64%)</a>
+[13]<a>MU | Micron Technology Inc | 577.79 | +1.34 (+0.23%)</a>
+[14]<a>US30Y | U.S. 30 Year Treasury | 5.013% | -0.012</a>
+[15]<a>VIDEO 04:54 Federal Realty Trust CEO Don Wood: It’s economies like this we thriv</a>
+[16]<a>VIDEO 04:41 Jim Cramer talks which AI stocks you need to add to your portfolio M</a>
+[17]<a>VIDEO 01:45 Lightning Round: Wait a few quarters to figure out what’s going on w</a>
+[18]<a>VIDEO 14:52 Amazon CEO Jassy: It’s easy to lower prices, it’s much harder to be </a>
+[19]<a>VIDEO 01:46 AI is the biggest technology transformation in our lifetime, says Am</a>
+[20]<a>VIDEO 10:26 Amazon CEO Andy Jassy sits down with Jim Cramer Monday, May 4, 2026 </a>
+[21]<a>VIDEO 02:23 The drive of computers is going higher and taking many stocks up wit</a>
+[22]<a>VIDEO 08:41 Jim Cramer talks Amazon’s advantages in the current economy Monday, </a>
+[23]<a>‘The Devil Wears Prada 2’ kicks off summer movie season in style with $77 millio</a>
+[24]<a>VIDEO 17:17 OpenAI Chairman’s startup raises mega round at nearly $16 billion pr</a>
+[25]<button aria-label="Add markets banner"></button>
+[26]<button role="tab">ASIA</button>
+[27]<button role="tab">EUR</button>
+[28]<button role="tab">PRE-MKT</button>
+[29]<button role="tab">OIL</button>
+[30]<button role="tab">BONDS</button>
+[31]<button role="tab">GOLD</button>
+[32]<button role="tab">US</button>
+[33]<button role="tab">FX</button>
+[34]<button role="tab">CRYPTO</button>
+[35]<a>ASX 200* 8,697.10 UNCH LAST | 5/4/26 AET</a>
+[36]<a>NIKKEI* 59,513.12 Uptrend +228.20 +0.38% LAST | 5/1/26 JST</a>
+[37]<a>NIFTY 50* 24,119.30 UNCH LAST | 5/4/26 IST</a>
+[38]<a>South Korean stocks hit fresh record, building on historic monthly rally in Apri</a>
+[39]<a title="U.S. futures">U.S. futures</a>
+[40]<a title="$900 million for World Cup">$900 million for World Cup</a>
+[41]<a title="Oil prices">Oil prices</a>
+[42]<a title="Iran attacks UAE; U.S. says it sank boats in Strait of Hormuz">Iran attacks UAE; U.S. says it sank boats in Strait of Hormuz</a>
+[43]<a title="Iran attacks UAE; U.S. says it sank boats in Strait of Hormuz">Iran attacks UAE; U.S. says it sank boats in Strait of Hormuz</a>
+[44]<a title="Traffic in the Strait of Hormuz won’t return to normal until August or later, according to Kalshi traders">Traffic in the Strait of Hormuz won’t return to normal until August or later, ac</a>
+[45]<a title="U.S. military denies Iran's claim it struck American warship in Strait of Hormuz">U.S. military denies Iran’s claim it struck American warship in Strait of Hormuz</a>
+[46]<a title="China is rewiring the Silicon Valley model — starting in Hong Kong">China is rewiring the Silicon Valley model — starting in Hong Kong</a>
+[47]<input id="QuoteFinder-searchInput" type="search">Search</input>
+[48]<button type="submit">Search</button>
+[49]<a>PLTR</a>
+[50]<button aria-label="Add To Watchlist"></button>
+[51]<a>US10Y</a>
+[52]<button aria-label="Add To Watchlist"></button>
+[53]<a>@CL.1</a>
+[54]<button aria-label="Add To Watchlist"></button>
+[55]<a>MARKET MOVERS</a>
+[56]<button id="market-tab-US" aria-label="US, tab 1 of 3" role="tab">US</button>
+[57]<button id="market-tab-EUR" aria-label="EUR, tab 2 of 3" role="tab">EUR</button>
+[58]<button id="market-tab-ASIA" aria-label="ASIA, tab 3 of 3" role="tab">ASIA</button>
+[59]<a>TSN 68.75 Tyson Foods Inc +5.07(+7.96%)</a>
+[60]<button aria-label="Add To Watchlist"></button>
+[61]<a>MU 576.45 Micron Technology Inc +34.24(+6.31%)</a>
+[62]<button aria-label="Add To Watchlist"></button>
+[63]<a>COIN 202.99 Coinbase Global +11.74(+6.14%)</a>
+[64]<button aria-label="Add To Watchlist"></button>
+[65]<a>UPS 96.31 United Parcel Service Inc -11.26(-10.47%)</a>
+[66]<button aria-label="Add To Watchlist"></button>
+[67]<button aria-label="Add To Watchlist"></button>
+[68]<a>Stock futures are little changed as Wall Street eyes latest developments in Midd</a>
+[69]<a>Lisa Kailai Han</a>
+[70]<a>India is burning more coal as extreme heat and the Iran war squeeze energy suppl</a>
+[71]<a>Priyanka Salve</a>
+[72]<a>Emerging markets, industrial stocks and utilities: Three investment strategies f</a>
+[73]<a>Michael Considine</a>
+[74]<a>Dow tumbles 550 points as oil prices rise and investors fear Iran conflict could</a>
+[75]<a>Sean Conlon</a>
+[76]<a>‘Bubble effect’: Weight loss drug fueled growth is putting the pharma sector at </a>
+[77]<a>Elsa Ohlen</a>
+[78]<a>How Chinese carmaker Geely put roots in the U.S.</a>
+2026-05-05 09:16:19,068 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-05 09:16:19,073 [INFO] RAW (attempt 1): '{"action": "type", "index": 8, "text": "Apple", "thought": "검색창이 열렸으므로, \'Apple\'을 입력해야 한다. 인덱스 8의 input 요소가 검색창으로 보인다."}'
+2026-05-05 09:16:19,073 [INFO] THOUGHT: 검색창이 열렸으므로, 'Apple'을 입력해야 한다. 인덱스 8의 input 요소가 검색창으로 보인다.
+2026-05-05 09:16:19,073 [INFO] ACTION : {"action": "type", "index": 8, "text": "Apple"}
+2026-05-05 09:16:19,087 [INFO] RESULT : OK: typed into [8] -> 'Apple'
+2026-05-05 09:16:20,614 [INFO] === STEP 4 ===
+2026-05-05 09:16:20,614 [INFO] URL  : https://www.cnbc.com/world/?region=world
+2026-05-05 09:16:20,614 [INFO] TITLE: International Business, World News & Global Stock Market Analysis
+2026-05-05 09:16:20,614 [INFO] --- INDEX ---
+2026-05-05 09:16:20,614 [INFO] [1]<button aria-label="Open Navigation Menu"></button>
+[2]<a>MARKETS</a>
+[3]<a>BUSINESS</a>
+[4]<a>INVESTING</a>
+[5]<a>TECH</a>
+[6]<a>POLITICS</a>
+[7]<a>VIDEO</a>
+[8]<input type="search">Apple</input>
+[9]<button id="querySearchButton" type="submit">Search</button>
+[10]<a>VIEW ALL SEARCH RESULTS FOR APPLE</a>
+[11]<a>Here are Monday’s biggest analyst calls: Nvidia, Apple, Palantir, AMD, McDonald’</a>
+[12]<a>Apple’s stock gains as company execs cite iPhone, Mac demand in boosting guidanc</a>
+[13]<a>VIDEO 04:17 Bumped Apple’s price target after gross margins were better than exp</a>
+[14]<a>Apple proves once again it is the ultimate cash machine. How to trade the stock </a>
+[15]<a>Apple reported stellar results. That could boost the shares of these suppliers F</a>
+[16]<a>Here’s what major analysts are saying about Apple’s earnings Friday, May 1, 2026</a>
+[17]<a>Apple CEO Tim Cook warns of extended memory crunch. ‘We’ll look at a range of op</a>
+[18]<a>Apple revenue guidance tops estimates on booming iPhone, Mac demand Thursday, Ap</a>
+[19]<a>Market indicator turns bullish for Apple just before earnings Thursday, April 30</a>
+[20]<a>Apple execs to talk China and tariffs, but will avoid discussing foldable iPhone</a>
+[21]<button aria-label="Add markets banner"></button>
+[22]<button role="tab">ASIA</button>
+[23]<button role="tab">EUR</button>
+[24]<button role="tab">PRE-MKT</button>
+[25]<button role="tab">OIL</button>
+[26]<button role="tab">BONDS</button>
+[27]<button role="tab">GOLD</button>
+[28]<button role="tab">US</button>
+[29]<button role="tab">FX</button>
+[30]<button role="tab">CRYPTO</button>
+[31]<a>ASX 200* 8,697.10 UNCH LAST | 5/4/26 AET</a>
+[32]<a>NIKKEI* 59,513.12 Uptrend +228.20 +0.38% LAST | 5/1/26 JST</a>
+[33]<a>NIFTY 50* 24,119.30 UNCH LAST | 5/4/26 IST</a>
+[34]<a>South Korean stocks hit fresh record, building on historic monthly rally in Apri</a>
+[35]<a title="U.S. futures">U.S. futures</a>
+[36]<a title="$900 million for World Cup">$900 million for World Cup</a>
+[37]<a title="Oil prices">Oil prices</a>
+[38]<a title="Iran attacks UAE; U.S. says it sank boats in Strait of Hormuz">Iran attacks UAE; U.S. says it sank boats in Strait of Hormuz</a>
+[39]<a title="Iran attacks UAE; U.S. says it sank boats in Strait of Hormuz">Iran attacks UAE; U.S. says it sank boats in Strait of Hormuz</a>
+[40]<a title="Traffic in the Strait of Hormuz won’t return to normal until August or later, according to Kalshi traders">Traffic in the Strait of Hormuz won’t return to normal until August or later, ac</a>
+[41]<a title="U.S. military denies Iran's claim it struck American warship in Strait of Hormuz">U.S. military denies Iran’s claim it struck American warship in Strait of Hormuz</a>
+[42]<a title="China is rewiring the Silicon Valley model — starting in Hong Kong">China is rewiring the Silicon Valley model — starting in Hong Kong</a>
+[43]<input id="QuoteFinder-searchInput" type="search">Search</input>
+[44]<button type="submit">Search</button>
+[45]<a>PLTR</a>
+[46]<button aria-label="Add To Watchlist"></button>
+[47]<a>US10Y</a>
+[48]<button aria-label="Add To Watchlist"></button>
+[49]<a>@CL.1</a>
+[50]<button aria-label="Add To Watchlist"></button>
+[51]<a>MARKET MOVERS</a>
+[52]<button id="market-tab-US" aria-label="US, tab 1 of 3" role="tab">US</button>
+[53]<button id="market-tab-EUR" aria-label="EUR, tab 2 of 3" role="tab">EUR</button>
+[54]<button id="market-tab-ASIA" aria-label="ASIA, tab 3 of 3" role="tab">ASIA</button>
+[55]<a>TSN 68.75 Tyson Foods Inc +5.07(+7.96%)</a>
+[56]<button aria-label="Add To Watchlist"></button>
+[57]<a>MU 576.45 Micron Technology Inc +34.24(+6.31%)</a>
+[58]<button aria-label="Add To Watchlist"></button>
+[59]<a>COIN 202.99 Coinbase Global +11.74(+6.14%)</a>
+[60]<button aria-label="Add To Watchlist"></button>
+[61]<a>UPS 96.31 United Parcel Service Inc -11.26(-10.47%)</a>
+[62]<button aria-label="Add To Watchlist"></button>
+[63]<button aria-label="Add To Watchlist"></button>
+[64]<a>Stock futures are little changed as Wall Street eyes latest developments in Midd</a>
+[65]<a>Lisa Kailai Han</a>
+[66]<a>India is burning more coal as extreme heat and the Iran war squeeze energy suppl</a>
+[67]<a>Priyanka Salve</a>
+[68]<a>Emerging markets, industrial stocks and utilities: Three investment strategies f</a>
+[69]<a>Michael Considine</a>
+[70]<a>Dow tumbles 550 points as oil prices rise and investors fear Iran conflict could</a>
+[71]<a>Sean Conlon</a>
+[72]<a>‘Bubble effect’: Weight loss drug fueled growth is putting the pharma sector at </a>
+[73]<a>Elsa Ohlen</a>
+[74]<a>How Chinese carmaker Geely put roots in the U.S.</a>
+2026-05-05 09:16:21,597 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-05 09:16:21,599 [INFO] RAW (attempt 1): '{"action": "click", "index": 9, "thought": "\'Apple\'을 입력했으므로, 이제 검색을 실행하기 위해 \'Search\' 버튼을 클릭해야 한다."}'
+2026-05-05 09:16:21,599 [INFO] THOUGHT: 'Apple'을 입력했으므로, 이제 검색을 실행하기 위해 'Search' 버튼을 클릭해야 한다.
+2026-05-05 09:16:21,599 [INFO] ACTION : {"action": "click", "index": 9}
+2026-05-05 09:16:21,687 [INFO] RESULT : OK: clicked [9]
+2026-05-05 09:16:23,199 [INFO] === STEP 5 ===
+2026-05-05 09:16:23,199 [INFO] URL  : https://www.cnbc.com/search/?query=Apple&qsearchterm=Apple
+2026-05-05 09:16:23,199 [INFO] TITLE: 
+2026-05-05 09:16:23,199 [INFO] --- INDEX ---
+2026-05-05 09:16:23,200 [INFO] (없음)
+2026-05-05 09:16:24,316 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-05 09:16:24,318 [INFO] RAW (attempt 1): '{"action": "done", "thought": "\'Apple\'을 검색하고 검색 결과 페이지로 이동했으므로 목표가 달성되었다."}'
+2026-05-05 09:16:24,318 [INFO] THOUGHT: 'Apple'을 검색하고 검색 결과 페이지로 이동했으므로 목표가 달성되었다.
+2026-05-05 09:16:24,318 [INFO] ACTION : {"action": "done"}
+2026-05-05 09:16:24,318 [INFO] RESULT : DONE — 
+2026-05-05 09:16:24,337 [INFO] === AGENT END ===

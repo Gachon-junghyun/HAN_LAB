@@ -1,0 +1,139 @@
+2026-05-05 00:55:54,362 [INFO] === AGENT START ===
+2026-05-05 00:55:54,362 [INFO] log file: C:\Users\fivep\OneDrive\Desktop\HAN_LAB\experiments\browser_agent\logs\run_20260505_005554.log
+2026-05-05 00:55:54,362 [INFO] GOAL    : 이 페이지의 본문을 모두 수집
+2026-05-05 00:55:54,362 [INFO] MODE    : research
+2026-05-05 00:55:54,362 [INFO] PROVIDER: ollama
+2026-05-05 00:55:54,363 [INFO] NOTES   : C:\Users\fivep\OneDrive\Desktop\HAN_LAB\experiments\browser_agent\notes\run_20260505_005554.md
+2026-05-05 00:55:54,373 [INFO] MODEL   : gemma4
+2026-05-05 00:55:55,441 [INFO] START URL: https://ko.wikipedia.org/wiki/파이썬
+2026-05-05 00:55:57,276 [INFO] [AUTO EXTRACT] auto-extracted (시작 페이지) '파이썬 - 위키백과, 우리 모두의 백과사전' (15355 chars)
+2026-05-05 00:55:57,838 [INFO] === STEP 1 ===
+2026-05-05 00:55:57,838 [INFO] URL  : https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9D%B4%EC%8D%AC
+2026-05-05 00:55:57,838 [INFO] TITLE: 파이썬 - 위키백과, 우리 모두의 백과사전
+2026-05-05 00:55:57,839 [INFO] --- INDEX ---
+2026-05-05 00:55:57,839 [INFO] [1]<input id="searchInput" aria-label="위키백과 검색" name="search" type="search" title="위키백과 검색 [alt-f]">위키백과 검색</input>
+[2]<button>검색</button>
+[3]<a>기부</a>
+[4]<a title="계정을 만들고 로그인하는 것이 좋습니다. 하지만 필수는 아닙니다">계정 만들기</a>
+[5]<a title="위키백과에 로그인하면 여러가지 편리한 기능을 사용할 수 있습니다. [alt-o]">로그인</a>
+[6]<a title="위키백과:과학의 달 에디터톤/2026년">2026년 과학의 달 에디터톤</a>
+[7]<button>숨기기</button>
+[8]<a>처음 위치</a>
+[9]<a>개요</a>
+[10]<a>역사</a>
+[11]<button>역사 하위섹션 토글하기</button>
+[12]<a>파이썬 2</a>
+[13]<a>파이썬 3</a>
+[14]<a>인기</a>
+[15]<a>기능과 철학</a>
+[16]<button>기능과 철학 하위섹션 토글하기</button>
+[17]<a>라이브러리</a>
+[18]<a>문법</a>
+[19]<a>자료형</a>
+[20]<a>동작하는 플랫폼</a>
+[21]<a>한글 다루기</a>
+[22]<a>사용 현황</a>
+[23]<button>사용 현황 하위섹션 토글하기</button>
+[24]<a>파이썬으로 작성된 자유-오픈 소스 소프트웨어</a>
+[25]<a>파이썬을 내부적으로 사용하는 소프트웨어</a>
+[26]<a>파이썬을 이용하고 있는 기업·정부 기관</a>
+[27]<a>실행 속도 향상 관련</a>
+[28]<a>IDE 목록</a>
+[29]<a>비평</a>
+[30]<a>빌드</a>
+[31]<a>같이 보기</a>
+[32]<a>각주</a>
+[33]<a>외부 링크</a>
+[34]<a title="본문 보기 [alt-c]">문서</a>
+[35]<a title="문서의 내용에 대한 토론 문서 [alt-t]">토론</a>
+[36]<a>읽기</a>
+[37]<a title="이 문서의 원본 코드를 편집 [alt-e]">편집</a>
+[38]<a title="이 문서의 과거 편집 내역입니다. [alt-h]">역사 보기</a>
+[39]<button>숨기기</button>
+[40]<a title="위키백과:동음이의어 문서">위키백과:동음이의어 문서</a>
+[41]<a title="피톤">피톤</a>
+[42]<a title="파이톤 5 미사일">파이톤 5 미사일</a>
+[43]<a title="프로그래밍 패러다임">패러다임</a>
+[44]<a title="프로그래밍 패러다임">프로그래밍 패러다임</a>
+[45]<a title="명령형 프로그래밍">명령형 프로그래밍</a>
+[46]<a title="절차적 프로그래밍">절차적 프로그래밍</a>
+[47]<a title="반영 (컴퓨터 과학)">반영</a>
+[48]<a title="소프트웨어 설계">설계자</a>
+[49]<a title="귀도 반 로섬">귀도 반 로섬</a>
+[50]<a title="프로그래머">개발자</a>
+[51]<a title="파이썬 소프트웨어 재단">파이썬 소프트웨어 재단</a>
+[52]<a id="mwBg">[1]</a>
+[53]<a title="위키데이터에서 편집하기">위키데이터에서 편집하기</a>
+[54]<a title="소프트웨어 사용권">라이선스</a>
+[55]<a title="파이썬 소프트웨어 재단 라이선스">파이썬 소프트웨어 재단 라이선스</a>
+[56]<a title="파일 확장자">파일 확장자</a>
+[57]<a>www.python.org</a>
+[58]<a title="프로그래밍 언어 구현체">구현체</a>
+[59]<a title="C파이썬">C파이썬</a>
+[60]<a title="IronPython">IronPython</a>
+[61]<a title="자이썬">자이썬</a>
+[62]<a title="en:MicroPython">마이크로파이썬</a>
+[63]<a title="en:Numba">넘바</a>
+[64]<a title="PyPy">PyPy</a>
+[65]<a title="en:Stackless Python">스택이스 파이썬</a>
+[66]<a title="사이썬">사이썬</a>
+[67]<a title="PyPy">R파이썬</a>
+[68]<a title="ABC (프로그래밍 언어)">ABC</a>
+[69]<a title="알골 (프로그래밍 언어)">알골 68</a>
+[70]<a title="C (프로그래밍 언어)">C</a>
+[71]<a title="C++">C++</a>
+[72]<a title="en:Dylan (programming language)">딜란</a>
+[73]<a title="하스켈">하스켈</a>
+[74]<a title="아이콘 (프로그래밍 언어)">아이콘</a>
+[75]<a title="자바 (프로그래밍 언어)">자바</a>
+[76]<a title="모듈라-3">모듈라-3</a>
+[77]<a title="펄">펄</a>
+[78]<a title="en:Boo (programming language)">부</a>
+[79]<a title="en:Cobra (programming language)">코브라</a>
+[80]<a title="커피스크립트">커피스크립트</a>
+[81]<a title="D (프로그래밍 언어)">D</a>
+[82]<a title="F 샤프">F#</a>
+[83]<a title="팰컨 (프로그래밍 언어)">팰컨</a>
+[84]<a title="en:Genie (programming language)">제니</a>
+[85]<a title="Go (프로그래밍 언어)">Go</a>
+[86]<a title="그루비 (프로그래밍 언어)">그루비</a>
+[87]<a title="자바스크립트">자바스크립트</a>
+[88]<a title="줄리아 (프로그래밍 언어)">줄리아</a>
+[89]<a title="en:Nim (programming language)">님</a>
+[90]<a title="루비 (프로그래밍 언어)">루비</a>
+[91]<a title="스위프트 (프로그래밍 언어)">스위프트</a>
+[92]<a id="mwDA">[2]</a>
+[93]<a title="영어">영어</a>
+[94]<a id="mwEg">[3]</a>
+[95]<a id="mwFw" title="귀도 반 로섬">귀도 반 로섬</a>
+[96]<a id="mwGA">[4]</a>
+[97]<a id="mwHA" title="프로그래밍 언어">프로그래밍 언어</a>
+[98]<a id="mwHg" title="객체지향">객체지향</a>
+[99]<a id="mwHw" title="플랫폼">플랫폼</a>
+[100]<a id="mwIA" title="동적 타이핑">동적 타이핑</a>
+[101]<a id="mwIg" title="프로그래밍 언어">프로그래밍 언어</a>
+[102]<a id="mwIw" title="데이터 분석">데이터 분석</a>
+[103]<a id="mwJA" title="웹 개발">웹 개발</a>
+[104]<a id="mwJQ" title="인공지능">인공지능</a>
+[105]<a id="mwKQ" title="프로그래밍 언어">프로그래밍 언어</a>
+[106]<a id="mwKg" title="데이터 분석">데이터 분석</a>
+[107]<a id="mwKw" title="웹 개발">웹 개발</a>
+[108]<a id="mwLA" title="인공지능">인공지능</a>
+[109]<a id="mwLQ">[5]</a>
+[110]<a id="mwMQ">[6]</a>
+[111]<a id="mwNg">[7]</a>
+[112]<a id="mwOw" title="다중 패러다임 프로그래밍 언어">다중 패러다임 프로그래밍 언어</a>
+[113]<a id="mwPA" title="객체 지향 프로그래밍">객체 지향 프로그래밍</a>
+[114]<a id="mwPQ" title="구조적 프로그래밍">구조적 프로그래밍</a>
+[115]<a id="mwPg" title="함수형 프로그래밍">함수형 프로그래밍</a>
+[116]<a id="mwPw" title="관점 지향 프로그래밍">관점 지향 프로그래밍</a>
+[117]<a id="mwQQ">[8]</a>
+[118]<a id="mwRQ" title="메타객체 (없는 문서)">메타객체</a>
+[119]<a id="mwRg">[9]</a>
+2026-05-05 00:56:07,890 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-05 00:56:07,891 [INFO] RAW (attempt 1): '{"thought": "사용자는 현재 페이지의 본문을 모두 수집하는 것이 목표였으며, 직전 스텝에서 이미 auto-extract가 성공적으로 실행되어 모든 본문이 수집되었습니다. 따라서 목표가 달성되었으므로 종료합니다.", "action": "done", "index": null, "text": "본문 수집 완료"}'
+2026-05-05 00:56:07,891 [INFO] THOUGHT: 사용자는 현재 페이지의 본문을 모두 수집하는 것이 목표였으며, 직전 스텝에서 이미 auto-extract가 성공적으로 실행되어 모든 본문이 수집되었습니다. 따라서 목표가 달성되었으므로 종료합니다.
+2026-05-05 00:56:07,891 [INFO] ACTION : {"action": "done", "index": null, "text": "본문 수집 완료"}
+2026-05-05 00:56:07,892 [INFO] RESULT : DONE — 본문 수집 완료
+2026-05-05 00:56:07,903 [INFO] === AGENT END ===
+2026-05-05 00:56:07,903 [INFO] 노트 파일: C:\Users\fivep\OneDrive\Desktop\HAN_LAB\experiments\browser_agent\notes\run_20260505_005554.md

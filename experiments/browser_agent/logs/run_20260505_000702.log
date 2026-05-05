@@ -1,0 +1,172 @@
+2026-05-05 00:07:02,887 [INFO] === AGENT START ===
+2026-05-05 00:07:02,887 [INFO] log file: C:\Users\fivep\OneDrive\Desktop\HAN_LAB\experiments\browser_agent\logs\run_20260505_000702.log
+2026-05-05 00:07:02,887 [INFO] GOAL    : 'playwright cdp'를 검색한 뒤, 검색 결과 중 첫 번째 진짜 결과 링크(광고 제외)를 클릭
+2026-05-05 00:07:02,888 [INFO] PROVIDER: ollama
+2026-05-05 00:07:02,897 [INFO] MODEL   : gemma4
+2026-05-05 00:07:03,859 [INFO] START URL: https://www.google.com
+2026-05-05 00:07:06,325 [INFO] === STEP 1 ===
+2026-05-05 00:07:06,325 [INFO] URL  : https://www.google.com/
+2026-05-05 00:07:06,325 [INFO] TITLE: Google
+2026-05-05 00:07:06,325 [INFO] --- INDEX ---
+2026-05-05 00:07:06,325 [INFO] [1]<a>Google 정보</a>
+[2]<a>스토어</a>
+[3]<a aria-label="Gmail ">Gmail</a>
+[4]<a aria-label="이미지 검색 ">이미지</a>
+[5]<a aria-label="Search Labs" role="button"></a>
+[6]<a aria-label="Google 앱" role="button"></a>
+[7]<a aria-label="Google 계정: Untitled A  
+(auntitled500@gmail.com)" role="button"></a>
+[8]<button aria-label="파일 또는 이미지 업로드" type="button"></button>
+[9]<textarea id="APjFqb" aria-label="검색" name="q" role="combobox"></textarea>
+[10]<div aria-label="입력 도구" role="button"></div>
+[11]<div aria-label="음성 검색" role="button"></div>
+[12]<div aria-label="이미지로 검색" role="button"></div>
+[13]<button type="button" role="link">AI 모드</button>
+[14]<input aria-label="Google 검색" name="btnK" type="submit" role="button">Google 검색</input>
+[15]<input aria-label="I’m Feeling Lucky" name="btnI" type="submit">I’m Feeling Lucky</input>
+[16]<a>광고</a>
+[17]<a>비즈니스</a>
+[18]<a>검색의 원리</a>
+[19]<a>개인정보처리방침</a>
+[20]<a>약관</a>
+[21]<div role="button">설정</div>
+2026-05-05 00:07:14,769 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-05 00:07:14,769 [INFO] RAW (attempt 1): '```json {   "thought": "사용자의 목표에 따라 검색어 \'playwright cdp\'를 검색창 [9]에 입력한다.",   "action": "type",   "index": 9,   "text": "playwright cdp" } ```'
+2026-05-05 00:07:14,769 [INFO] THOUGHT: 사용자의 목표에 따라 검색어 'playwright cdp'를 검색창 [9]에 입력한다.
+2026-05-05 00:07:14,769 [INFO] ACTION : {"action": "type", "index": 9, "text": "playwright cdp"}
+2026-05-05 00:07:14,818 [INFO] RESULT : OK: typed into [9] -> 'playwright cdp'
+2026-05-05 00:07:16,351 [INFO] === STEP 2 ===
+2026-05-05 00:07:16,351 [INFO] URL  : https://www.google.com/
+2026-05-05 00:07:16,351 [INFO] TITLE: Google
+2026-05-05 00:07:16,351 [INFO] --- INDEX ---
+2026-05-05 00:07:16,351 [INFO] [1]<a>Google 정보</a>
+[2]<a>스토어</a>
+[3]<a aria-label="Gmail ">Gmail</a>
+[4]<a aria-label="이미지 검색 ">이미지</a>
+[5]<a aria-label="Search Labs" role="button"></a>
+[6]<a aria-label="Google 앱" role="button"></a>
+[7]<a aria-label="Google 계정: Untitled A  
+(auntitled500@gmail.com)" role="button"></a>
+[8]<button aria-label="파일 또는 이미지 업로드" type="button"></button>
+[9]<textarea id="APjFqb" aria-label="검색" name="q" role="combobox">playwright cdp</textarea>
+[10]<div aria-label="지우기" role="button"></div>
+[11]<button type="button" role="link">AI 모드</button>
+[12]<input aria-label="Google 검색" name="btnK" type="submit" role="button">Google 검색</input>
+[13]<input aria-label="I’m Feeling Lucky" name="btnI" type="submit">I’m Feeling Lucky</input>
+[14]<div role="button">부적절한 예상 검색어 신고</div>
+[15]<a>광고</a>
+[16]<a>비즈니스</a>
+[17]<a>검색의 원리</a>
+[18]<a>개인정보처리방침</a>
+[19]<a>약관</a>
+[20]<div role="button">설정</div>
+2026-05-05 00:07:22,617 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-05 00:07:22,617 [INFO] RAW (attempt 1): '```json {   "thought": "검색어 입력이 완료되었으므로, [12] \'Google 검색\' 버튼을 클릭하여 검색 결과를 확인한다.",   "action": "click",   "index": 12 } ```'
+2026-05-05 00:07:22,617 [INFO] THOUGHT: 검색어 입력이 완료되었으므로, [12] 'Google 검색' 버튼을 클릭하여 검색 결과를 확인한다.
+2026-05-05 00:07:22,617 [INFO] ACTION : {"action": "click", "index": 12}
+2026-05-05 00:07:22,806 [INFO] RESULT : OK: clicked [12]
+2026-05-05 00:07:24,341 [INFO] === STEP 3 ===
+2026-05-05 00:07:24,341 [INFO] URL  : https://www.google.com/search?q=playwright+cdp&sca_esv=aa30526fefaab2aa&sxsrf=ANbL-n6kn-IDPAWsuzEybso610vLJoNBGQ%3A1777907224397&source=hp&ei=GLb4aYH3FYGk2roP8bPrsQY&iflsig=AFdpzrgAAAAAafjEKAvBnzF95jWe-QXE1gLp0jgwRIq3&ved=0ahUKEwiB47TE9J-UAxUBklYBHfHZOmYQ4dUDCCA&oq=playwright+cdp&gs_lp=Egdnd3Mtd2l6Ig5wbGF5d3JpZ2h0IGNkcDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBBAAGB4yBBAAGB4yBBAAGB4yBBAAGB4yBBAAGB4yBBAAGB5Inj1QAFgAcAB4AJABAJgBe6ABe6oBAzAuMbgBDMgBAPgBAZgCAaACowGYAwCSBwMwLjGgB-cEsgcDMC4xuAejAcIHAzQtMcgHHYAIAQ&sclient=gws-wiz
+2026-05-05 00:07:24,341 [INFO] TITLE: playwright cdp - Google 검색
+2026-05-05 00:07:24,341 [INFO] --- INDEX ---
+2026-05-05 00:07:24,341 [INFO] [1]<a id="logo" aria-label="Google 홈페이지로 이동"></a>
+[2]<textarea id="APjFqb" aria-label="검색" name="q" role="combobox">playwright cdp</textarea>
+[3]<div aria-label="지우기" role="button"></div>
+[4]<div aria-label="입력 도구" role="button"></div>
+[5]<div aria-label="음성 검색" role="button"></div>
+[6]<div aria-label="이미지로 검색" role="button"></div>
+[7]<button aria-label="검색" type="submit"></button>
+[8]<a aria-label="Search Labs" role="button"></a>
+[9]<a aria-label="Google 앱" role="button"></a>
+[10]<a aria-label="Google 계정: Untitled A  
+(auntitled500@gmail.com)" role="button"></a>
+[11]<div role="navigation">AI 모드 전체 이미지 동영상 뉴스 쇼핑 짧은 동영상 더보기 도구</div>
+[12]<a>AI 모드</a>
+[13]<a role="link">전체</a>
+[14]<a>이미지</a>
+[15]<a>동영상</a>
+[16]<a>뉴스</a>
+[17]<a>쇼핑</a>
+[18]<a>짧은 동영상</a>
+[19]<div role="button">더보기</div>
+[20]<div id="hdtb-tls" role="button">도구</div>
+[21]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[22]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[23]<a aria-label="Playwright 외 1개 - 관련 링크 보기"></a>
+[24]<div aria-label="AI 개요 더보기" role="button">더보기</div>
+[25]<a>CDPSession Playwright https://playwright.dev › docs › api › class-cdpsession</a>
+[26]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[27]<a>커스텀 브라우저, Playwright 로 자동화하기 Medium · Changjoon Baek 3개월 전</a>
+[28]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[29]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[30]<a>Closer to the Metal: Leaving Playwright for CDP Browser Use https://browser-use.</a>
+[31]<div aria-label="검색결과에 관한 정보" role="button"></div>
+2026-05-05 00:07:34,385 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-05 00:07:34,386 [INFO] RAW (attempt 1): '```json {   "thought": "검색 결과 중 첫 번째로 보이는, Playwright 공식 문서를 포함하는 [25] 링크를 클릭하여 목표를 달성한다.",   "action": "click",   "index": 25 } ```'
+2026-05-05 00:07:34,386 [INFO] THOUGHT: 검색 결과 중 첫 번째로 보이는, Playwright 공식 문서를 포함하는 [25] 링크를 클릭하여 목표를 달성한다.
+2026-05-05 00:07:34,386 [INFO] ACTION : {"action": "click", "index": 25}
+2026-05-05 00:07:34,504 [INFO] RESULT : OK: clicked [25]
+2026-05-05 00:07:36,026 [INFO] === STEP 4 ===
+2026-05-05 00:07:36,027 [INFO] URL  : https://playwright.dev/docs/api/class-cdpsession
+2026-05-05 00:07:36,027 [INFO] TITLE: CDPSession | Playwright
+2026-05-05 00:07:36,027 [INFO] --- INDEX ---
+2026-05-05 00:07:36,027 [INFO] [1]<a>Playwright</a>
+[2]<a>Docs</a>
+[3]<a>MCP</a>
+[4]<a>CLI</a>
+[5]<a>API</a>
+[6]<a role="button">Node.js</a>
+[7]<a aria-label="GitHub repository"></a>
+[8]<a aria-label="Discord server"></a>
+[9]<button aria-label="Switch between dark and light mode (currently system mode)" type="button"></button>
+[10]<button aria-label="Search (Ctrl+K)" type="button">Search K</button>
+[11]<a role="button">API reference</a>
+[12]<a>Playwright Test</a>
+[13]<a>Playwright Library</a>
+[14]<a role="button">Classes</a>
+[15]<a>APIRequest</a>
+[16]<a>APIRequestContext</a>
+[17]<a>APIResponse</a>
+[18]<a>Browser</a>
+[19]<a>BrowserContext</a>
+[20]<a>BrowserServer</a>
+[21]<a>BrowserType</a>
+[22]<a>CDPSession</a>
+[23]<a>Clock</a>
+[24]<a>ConsoleMessage</a>
+[25]<a>Coverage</a>
+[26]<a>Debugger</a>
+[27]<a>Dialog</a>
+[28]<a>Download</a>
+[29]<a>ElementHandle</a>
+[30]<a>FileChooser</a>
+[31]<a>Frame</a>
+[32]<a>FrameLocator</a>
+[33]<a>JSHandle</a>
+[34]<a>Keyboard</a>
+[35]<a>Locator</a>
+[36]<a>Logger</a>
+[37]<a>Mouse</a>
+[38]<a>Page</a>
+[39]<a>Request</a>
+[40]<a>Response</a>
+[41]<a>Route</a>
+[42]<a>Screencast</a>
+[43]<a>Selectors</a>
+[44]<a aria-label="Home page"></a>
+[45]<pre>const client = await page.context().newCDPSession(page); await client.send('Anim</pre>
+[46]<pre>await cdpSession.detach();</pre>
+[47]<a>Promise</a>
+[48]<a>void</a>
+[49]<a>Methods</a>
+[50]<a>detach</a>
+[51]<a>send</a>
+[52]<a>Events</a>
+[53]<a>on('close')</a>
+[54]<a>on('event')</a>
+2026-05-05 00:07:39,742 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-05 00:07:39,742 [INFO] RAW (attempt 1): '```json {   "thought": "사용자의 목표는 이미 달성되었으며, 현재는 상세 문서 페이지이므로 더 이상 행동할 필요가 없다.",   "action": "done" } ```'
+2026-05-05 00:07:39,742 [INFO] THOUGHT: 사용자의 목표는 이미 달성되었으며, 현재는 상세 문서 페이지이므로 더 이상 행동할 필요가 없다.
+2026-05-05 00:07:39,743 [INFO] ACTION : {"action": "done"}
+2026-05-05 00:07:39,743 [INFO] RESULT : DONE — 
+2026-05-05 00:07:39,755 [INFO] === AGENT END ===

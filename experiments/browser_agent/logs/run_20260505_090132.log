@@ -1,0 +1,18 @@
+2026-05-05 09:01:32,436 [INFO] === AGENT START ===
+2026-05-05 09:01:32,436 [INFO] log file: C:\Users\fivep\OneDrive\Desktop\HAN_LAB\experiments\browser_agent\logs\run_20260505_090132.log
+2026-05-05 09:01:32,436 [INFO] GOAL    : 현재 비트코인 가격을 확인하고 done
+2026-05-05 09:01:32,436 [INFO] MODE    : action
+2026-05-05 09:01:32,436 [INFO] PROVIDER: gemini
+2026-05-05 09:01:32,471 [INFO] MODEL   : gemini-2.5-flash
+2026-05-05 09:01:33,770 [INFO] START URL: https://www.investing.com/crypto/bitcoin
+2026-05-05 09:01:36,279 [WARNING] goto 실패: Page.goto: Navigation to "https://www.investing.com/crypto/bitcoin" is interrupted by another navigation to "https://cm.g.doubleclick.net/partnerpixels?gdpr=0&us_privacy=1---&gpp_sid=-1&url=https%3A%2F%2Fwww.investing.com%2Fcrypto%2Fbitcoin"
+Call log:
+  - navigating to "https://www.investing.com/crypto/bitcoin", waiting until "domcontentloaded"
+ (현재 페이지 그대로 진행)
+2026-05-05 09:01:36,279 [INFO] START URL: https://www.investing.com/crypto/bitcoin
+2026-05-05 09:01:37,741 [WARNING] goto 실패: Page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://www.investing.com/crypto/bitcoin", waiting until "domcontentloaded"
+
+2026-05-05 09:01:38,675 [ERROR] [INDEX FAIL] Page.evaluate: Connection closed while reading from the driver
+2026-05-05 09:01:38,688 [INFO] === AGENT END ===

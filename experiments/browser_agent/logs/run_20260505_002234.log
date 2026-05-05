@@ -1,0 +1,8 @@
+2026-05-05 00:22:34,574 [INFO] === AGENT START ===
+2026-05-05 00:22:34,575 [INFO] log file: C:\Users\fivep\OneDrive\Desktop\HAN_LAB\experiments\browser_agent\logs\run_20260505_002234.log
+2026-05-05 00:22:34,575 [INFO] GOAL    : 검색창에 'lo-fi study' 입력하고 검색 실행
+2026-05-05 00:22:34,575 [INFO] PROVIDER: ollama
+2026-05-05 00:22:34,584 [INFO] MODEL   : gemma4
+2026-05-05 00:22:35,509 [INFO] START URL: https://www.youtube.com
+2026-05-05 00:22:39,486 [ERROR] [INDEX FAIL] Page.evaluate: Execution context was destroyed, most likely because of a navigation
+2026-05-05 00:22:39,501 [INFO] === AGENT END ===

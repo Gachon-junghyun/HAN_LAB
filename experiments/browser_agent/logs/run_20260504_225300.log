@@ -1,0 +1,10 @@
+2026-05-04 22:53:00,009 [INFO] === AGENT START ===
+2026-05-04 22:53:00,009 [INFO] log file: C:\Users\fivep\OneDrive\Desktop\HAN_LAB\experiments\browser_agent\logs\run_20260504_225300.log
+2026-05-04 22:53:00,010 [INFO] GOAL : 구글에서 'playwright cdp' 검색해
+2026-05-04 22:53:00,010 [INFO] MODEL: gemini-2.5-flash
+2026-05-04 22:53:06,927 [INFO] === STEP 1 ===
+2026-05-04 22:53:06,927 [INFO] URL  : chrome://new-tab-page/
+2026-05-04 22:53:06,927 [INFO] TITLE: 새 탭
+2026-05-04 22:53:06,927 [INFO] --- INDEX ---
+2026-05-04 22:53:06,927 [INFO] (없음)
+2026-05-04 22:53:06,928 [INFO] AFC is enabled with max remote calls: 10.

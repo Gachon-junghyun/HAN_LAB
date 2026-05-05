@@ -1,0 +1,253 @@
+2026-05-05 09:34:59,664 [INFO] === AGENT START ===
+2026-05-05 09:34:59,664 [INFO] log file: C:\Users\fivep\OneDrive\Desktop\HAN_LAB\experiments\browser_agent\logs\run_20260505_093459.log
+2026-05-05 09:34:59,664 [INFO] GOAL    : 회사명 검색창에 '삼성전자' 입력하고 검색 버튼 클릭
+2026-05-05 09:34:59,664 [INFO] MODE    : action
+2026-05-05 09:34:59,665 [INFO] PROVIDER: ollama
+2026-05-05 09:34:59,675 [INFO] MODEL   : gemma4
+2026-05-05 09:35:00,277 [INFO] START URL: https://dart.fss.or.kr/dsab007/main.do
+2026-05-05 09:35:03,252 [INFO] === STEP 1 ===
+2026-05-05 09:35:03,252 [INFO] URL  : https://dart.fss.or.kr/dsab007/main.do
+2026-05-05 09:35:03,252 [INFO] TITLE: 전자공시시스템| 공시서류검색 | 공시통합검색
+2026-05-05 09:35:03,253 [INFO] --- INDEX ---
+2026-05-05 09:35:03,253 [INFO] [1]<a title="홈으로 가기">홈으로 가기</a>
+[2]<select id="headOption" name="option" title="목록선택">전체 회사명 보고서명 보고서 목차명 본문내용 고급검색</select>
+[3]<input id="headTextCrpNm" name="textCrpNm" type="text" title="회사명/종목코드 입력">회사명/종목코드 입력</input>
+[4]<button>검색</button>
+[5]<a title="최근공시">최근공시</a>
+[6]<a title="공시서류검색">공시서류검색</a>
+[7]<a title="기업개황">기업개황</a>
+[8]<a title="공모정보">공모정보</a>
+[9]<a title="OpenDART">OpenDART</a>
+[10]<a title="공시업무ㆍ제도">공시업무ㆍ제도</a>
+[11]<a title="공시통합검색">공시통합검색</a>
+[12]<a title="회사별검색">회사별검색</a>
+[13]<a title="펀드공시상세검색">펀드공시상세검색</a>
+[14]<a title="최근정정보고서">최근정정보고서</a>
+[15]<a title="최근삭제보고서">최근삭제보고서</a>
+[16]<a title="고급검색">고급검색</a>
+[17]<select id="option" name="option" title="선택">전체 회사명 보고서명 보고서 목차명 본문내용</select>
+[18]<input id="textCrpNm" name="textCrpNm" type="text" title="회사명/종목코드 입력">회사명/종목코드 입력</input>
+[19]<a id="btnCorp" title="찾기">찾기</a>
+[20]<a title="검색">검색</a>
+[21]<div>최근검색어 선택</div>
+[22]<input id="textCrpNm2" name="textCrpNm2" type="text" title="회사명/종목코드 입력">회사명/종목코드 입력</input>
+[23]<a id="btnCorp2" title="찾기">찾기</a>
+[24]<input id="textPresenterNm" name="textPresenterNm" type="text">제출인명 입력</input>
+[25]<input id="startDate" name="startDate" type="text" title="검색시작일">20250505</input>
+[26]<a id="startCal" title="달력버튼">달력버튼</a>
+[27]<input id="endDate" name="endDate" type="text" title="검색종료일">20260505</input>
+[28]<a id="endCal" title="달력버튼">달력버튼</a>
+[29]<a id="date2" title="1개월">1개월</a>
+[30]<a id="date3" title="6개월">6개월</a>
+[31]<a id="date4" title="1년">1년</a>
+[32]<a id="date5" title="3년">3년</a>
+[33]<a id="date6" title="5년">5년</a>
+[34]<a id="date7" title="10년">10년</a>
+[35]<select id="decadeType" name="decadeType">기간더보기 20년전~10년전 DART개시~20년전</select>
+[36]<input id="finalReport" name="finalReport" type="checkbox">recent</input>
+[37]<li id="li_01">정기공시</li>
+[38]<li id="li_02">주요사항보고</li>
+[39]<li id="li_03">발행공시</li>
+[40]<li id="li_04">지분공시</li>
+[41]<li id="li_05">기타공시</li>
+[42]<li id="li_06">외부감사관련</li>
+[43]<li id="li_07">펀드공시</li>
+[44]<li id="li_08">자산유동화</li>
+[45]<li id="li_09" title="한국거래소 소관 공시사항입니다.">거래소공시</li>
+[46]<li id="li_10" title="공정거래위원회 소관 공시사항입니다.">공정위공시</li>
+[47]<a title="검색">검색</a>
+[48]<a title="초기화">초기화</a>
+[49]<select id="maxResultsCb" name="maxResultsCb" title="선택">15 30 50 100</select>
+[50]<a id="date" name="sort" title="접수일자 내림차순 ">접수일자</a>
+[51]<a id="crp" name="sort" title="회사명 내림차순 ">회사명</a>
+[52]<a id="rpt" name="sort" title="회사명 내림차순 ">보고서명</a>
+[53]<a title="새창열림">새창열림</a>
+[54]<a title="새창열림">새창열림</a>
+[55]<a title="새창열림">새창열림</a>
+[56]<a title="새창열림">새창열림</a>
+[57]<a title="새창열림">새창열림</a>
+[58]<a title="새창열림">새창열림</a>
+[59]<a title="개인정보처리방침 새창">개인정보 처리방침</a>
+[60]<a title="정보이용시 유의사항">정보이용시 유의사항</a>
+[61]<a title="보고서정보">보고서정보</a>
+[62]<a title="RSS서비스">RSS서비스</a>
+2026-05-05 09:35:22,993 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-05 09:35:22,993 [INFO] RAW (attempt 1): '```json {   "thought": "사용자 목표는 회사명 검색창에 \'삼성전자\'를 입력하는 것이다. 목록에서 회사명 검색창인 [3]을 찾아 \'삼성전자\'를 입력한다.",   "action": "type",   "index": 3,   "text": "삼성전자" } ```'
+2026-05-05 09:35:22,993 [INFO] THOUGHT: 사용자 목표는 회사명 검색창에 '삼성전자'를 입력하는 것이다. 목록에서 회사명 검색창인 [3]을 찾아 '삼성전자'를 입력한다.
+2026-05-05 09:35:22,993 [INFO] ACTION : {"action": "type", "index": 3, "text": "삼성전자"}
+2026-05-05 09:35:23,039 [INFO] RESULT : OK: typed into [3] -> '삼성전자'
+2026-05-05 09:35:24,562 [INFO] === STEP 2 ===
+2026-05-05 09:35:24,562 [INFO] URL  : https://dart.fss.or.kr/dsab007/main.do
+2026-05-05 09:35:24,562 [INFO] TITLE: 전자공시시스템| 공시서류검색 | 공시통합검색
+2026-05-05 09:35:24,562 [INFO] --- INDEX ---
+2026-05-05 09:35:24,562 [INFO] [1]<a title="홈으로 가기">홈으로 가기</a>
+[2]<select id="headOption" name="option" title="목록선택">전체 회사명 보고서명 보고서 목차명 본문내용 고급검색</select>
+[3]<input id="headTextCrpNm" name="textCrpNm" type="text" title="회사명/종목코드 입력">삼성전자</input>
+[4]<button>검색</button>
+[5]<a title="최근공시">최근공시</a>
+[6]<a title="공시서류검색">공시서류검색</a>
+[7]<a title="기업개황">기업개황</a>
+[8]<a title="공모정보">공모정보</a>
+[9]<a title="OpenDART">OpenDART</a>
+[10]<a title="공시업무ㆍ제도">공시업무ㆍ제도</a>
+[11]<a title="공시통합검색">공시통합검색</a>
+[12]<a title="회사별검색">회사별검색</a>
+[13]<a title="펀드공시상세검색">펀드공시상세검색</a>
+[14]<a title="최근정정보고서">최근정정보고서</a>
+[15]<a title="최근삭제보고서">최근삭제보고서</a>
+[16]<a title="고급검색">고급검색</a>
+[17]<select id="option" name="option" title="선택">전체 회사명 보고서명 보고서 목차명 본문내용</select>
+[18]<input id="textCrpNm" name="textCrpNm" type="text" title="회사명/종목코드 입력">회사명/종목코드 입력</input>
+[19]<a id="btnCorp" title="찾기">찾기</a>
+[20]<a title="검색">검색</a>
+[21]<div>최근검색어 선택</div>
+[22]<input id="textCrpNm2" name="textCrpNm2" type="text" title="회사명/종목코드 입력">회사명/종목코드 입력</input>
+[23]<a id="btnCorp2" title="찾기">찾기</a>
+[24]<input id="textPresenterNm" name="textPresenterNm" type="text">제출인명 입력</input>
+[25]<input id="startDate" name="startDate" type="text" title="검색시작일">20250505</input>
+[26]<a id="startCal" title="달력버튼">달력버튼</a>
+[27]<input id="endDate" name="endDate" type="text" title="검색종료일">20260505</input>
+[28]<a id="endCal" title="달력버튼">달력버튼</a>
+[29]<a id="date2" title="1개월">1개월</a>
+[30]<a id="date3" title="6개월">6개월</a>
+[31]<a id="date4" title="1년">1년</a>
+[32]<a id="date5" title="3년">3년</a>
+[33]<a id="date6" title="5년">5년</a>
+[34]<a id="date7" title="10년">10년</a>
+[35]<select id="decadeType" name="decadeType">기간더보기 20년전~10년전 DART개시~20년전</select>
+[36]<input id="finalReport" name="finalReport" type="checkbox">recent</input>
+[37]<li id="li_01">정기공시</li>
+[38]<li id="li_02">주요사항보고</li>
+[39]<li id="li_03">발행공시</li>
+[40]<li id="li_04">지분공시</li>
+[41]<li id="li_05">기타공시</li>
+[42]<li id="li_06">외부감사관련</li>
+[43]<li id="li_07">펀드공시</li>
+[44]<li id="li_08">자산유동화</li>
+[45]<li id="li_09" title="한국거래소 소관 공시사항입니다.">거래소공시</li>
+[46]<li id="li_10" title="공정거래위원회 소관 공시사항입니다.">공정위공시</li>
+[47]<a title="검색">검색</a>
+[48]<a title="초기화">초기화</a>
+[49]<select id="maxResultsCb" name="maxResultsCb" title="선택">15 30 50 100</select>
+[50]<a id="date" name="sort" title="접수일자 내림차순 ">접수일자</a>
+[51]<a id="crp" name="sort" title="회사명 내림차순 ">회사명</a>
+[52]<a id="rpt" name="sort" title="회사명 내림차순 ">보고서명</a>
+[53]<a title="새창열림">새창열림</a>
+[54]<a title="새창열림">새창열림</a>
+[55]<a title="새창열림">새창열림</a>
+[56]<a title="새창열림">새창열림</a>
+[57]<a title="새창열림">새창열림</a>
+[58]<a title="새창열림">새창열림</a>
+[59]<a title="개인정보처리방침 새창">개인정보 처리방침</a>
+[60]<a title="정보이용시 유의사항">정보이용시 유의사항</a>
+[61]<a title="보고서정보">보고서정보</a>
+[62]<a title="RSS서비스">RSS서비스</a>
+2026-05-05 09:35:27,768 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-05 09:35:27,768 [INFO] RAW (attempt 1): '```json {   "thought": "회사명 검색창에 \'삼성전자\' 입력이 완료되었으므로, 이제 검색 버튼을 클릭하여 최종 검색을 실행해야 한다. 목록에서 검색 버튼인 [4]를 클릭한다.",   "action": "click",   "index": 4 } ```'
+2026-05-05 09:35:27,768 [INFO] THOUGHT: 회사명 검색창에 '삼성전자' 입력이 완료되었으므로, 이제 검색 버튼을 클릭하여 최종 검색을 실행해야 한다. 목록에서 검색 버튼인 [4]를 클릭한다.
+2026-05-05 09:35:27,768 [INFO] ACTION : {"action": "click", "index": 4}
+2026-05-05 09:35:27,842 [INFO] RESULT : OK: clicked [4]
+2026-05-05 09:35:29,392 [INFO] === STEP 3 ===
+2026-05-05 09:35:29,393 [INFO] URL  : https://dart.fss.or.kr/dsab007/main.do
+2026-05-05 09:35:29,393 [INFO] TITLE: 전자공시시스템| 공시서류검색 | 공시통합검색
+2026-05-05 09:35:29,393 [INFO] --- INDEX ---
+2026-05-05 09:35:29,393 [INFO] [1]<a title="홈으로 가기">홈으로 가기</a>
+[2]<select id="headOption" name="option" title="목록선택">전체 회사명 보고서명 보고서 목차명 본문내용 고급검색</select>
+[3]<input id="headTextCrpNm" name="textCrpNm" type="text" title="회사명/종목코드 입력">회사명/종목코드 입력</input>
+[4]<button>검색</button>
+[5]<a title="최근공시">최근공시</a>
+[6]<a title="공시서류검색">공시서류검색</a>
+[7]<a title="기업개황">기업개황</a>
+[8]<a title="공모정보">공모정보</a>
+[9]<a title="OpenDART">OpenDART</a>
+[10]<a title="공시업무ㆍ제도">공시업무ㆍ제도</a>
+[11]<a title="공시통합검색">공시통합검색</a>
+[12]<a title="회사별검색">회사별검색</a>
+[13]<a title="펀드공시상세검색">펀드공시상세검색</a>
+[14]<a title="최근정정보고서">최근정정보고서</a>
+[15]<a title="최근삭제보고서">최근삭제보고서</a>
+[16]<a title="고급검색">고급검색</a>
+[17]<select id="option" name="option" title="선택">전체 회사명 보고서명 보고서 목차명 본문내용</select>
+[18]<input id="textCrpNm" name="textCrpNm" type="text" title="회사명/종목코드 입력">삼성전자</input>
+[19]<a id="btnCorp" title="찾기">찾기</a>
+[20]<a title="검색">검색</a>
+[21]<div>삼성전자</div>
+[22]<input id="textCrpNm2" name="textCrpNm2" type="text" title="회사명/종목코드 입력">삼성전자</input>
+[23]<input id="textPresenterNm" name="textPresenterNm" type="text">제출인명 입력</input>
+[24]<input id="startDate" name="startDate" type="text" title="검색시작일">20250505</input>
+[25]<a id="startCal" title="달력버튼">달력버튼</a>
+[26]<input id="endDate" name="endDate" type="text" title="검색종료일">20260505</input>
+[27]<a id="endCal" title="달력버튼">달력버튼</a>
+[28]<a id="date2" title="1개월">1개월</a>
+[29]<a id="date3" title="6개월">6개월</a>
+[30]<a id="date4" title="1년">1년</a>
+[31]<a id="date5" title="3년">3년</a>
+[32]<a id="date6" title="5년">5년</a>
+[33]<a id="date7" title="10년">10년</a>
+[34]<select id="decadeType" name="decadeType">기간더보기 20년전~10년전 DART개시~20년전</select>
+[35]<input id="finalReport" name="finalReport" type="checkbox">recent</input>
+[36]<li id="li_01">정기공시</li>
+[37]<li id="li_02">주요사항보고</li>
+[38]<li id="li_03">발행공시</li>
+[39]<li id="li_04">지분공시</li>
+[40]<li id="li_05">기타공시</li>
+[41]<li id="li_06">외부감사관련</li>
+[42]<li id="li_07">펀드공시</li>
+[43]<li id="li_08">자산유동화</li>
+[44]<li id="li_09" title="한국거래소 소관 공시사항입니다.">거래소공시</li>
+[45]<li id="li_10" title="공정거래위원회 소관 공시사항입니다.">공정위공시</li>
+[46]<a title="검색">검색</a>
+[47]<a title="초기화">초기화</a>
+[48]<select id="maxResultsCb" name="maxResultsCb" title="선택">15 30 50 100</select>
+[49]<a id="date" name="sort" title="접수일자 내림차순 ">접수일자</a>
+[50]<a id="crp" name="sort" title="회사명 내림차순 ">회사명</a>
+[51]<a title="삼성전자 기업개황 새창">삼성전자</a>
+[52]<a id="r_20260504000421" title="주식등의대량보유상황보고서(일반) 공시뷰어 새창">주식등의대량보유상황보고서(일반)</a>
+[53]<a title="삼성전자 기업개황 새창">삼성전자</a>
+[54]<a id="r_20260430001632" title="특수관계인에대한출자 공시뷰어 새창">특수관계인에대한출자</a>
+[55]<a title="삼성전자 기업개황 새창">삼성전자</a>
+[56]<a id="r_20260430001625" title="특수관계인과의내부거래 공시뷰어 새창">특수관계인과의내부거래</a>
+[57]<a title="삼성전자 기업개황 새창">삼성전자</a>
+[58]<a id="r_20260430001606" title="특수관계인과의보험거래 공시뷰어 새창">특수관계인과의보험거래</a>
+[59]<a title="삼성전자 기업개황 새창">삼성전자</a>
+[60]<a id="r_20260430800106" title="현금ㆍ현물배당결정 공시뷰어 새창">현금ㆍ현물배당결정</a>
+[61]<a title="삼성전자 기업개황 새창">삼성전자</a>
+[62]<a id="r_20260430800097" title="연결재무제표기준영업(잠정)실적(공정공시) 공시뷰어 새창">[기재정정]연결재무제표기준영업(잠정)실적(공정공시)</a>
+[63]<a title="삼성전자 기업개황 새창">삼성전자</a>
+[64]<a id="r_20260430800083" title="연결재무제표기준영업(잠정)실적(공정공시) 공시뷰어 새창">연결재무제표기준영업(잠정)실적(공정공시)</a>
+[65]<a title="삼성전자 기업개황 새창">삼성전자</a>
+[66]<a id="r_20260429000319" title="임원ㆍ주요주주특정증권등소유상황보고서 공시뷰어 새창">임원ㆍ주요주주특정증권등소유상황보고서</a>
+[67]<a title="삼성전자 기업개황 새창">삼성전자</a>
+[68]<a id="r_20260424000778" title="자기주식취득결과보고서 공시뷰어 새창">자기주식취득결과보고서</a>
+[69]<a title="삼성전자 기업개황 새창">삼성전자</a>
+[70]<a id="r_20260424000758" title="주식등의대량보유상황보고서(일반) 공시뷰어 새창">주식등의대량보유상황보고서(일반)</a>
+[71]<a title="삼성전자 기업개황 새창">삼성전자</a>
+[72]<a id="r_20260423000164" title="임원ㆍ주요주주특정증권등소유상황보고서 공시뷰어 새창">임원ㆍ주요주주특정증권등소유상황보고서</a>
+[73]<a title="삼성전자 기업개황 새창">삼성전자</a>
+[74]<a id="r_20260417000682" title="주식등의대량보유상황보고서(일반) 공시뷰어 새창">주식등의대량보유상황보고서(일반)</a>
+[75]<a title="삼성전자 기업개황 새창">삼성전자</a>
+[76]<a id="r_20260417000440" title="임원ㆍ주요주주특정증권등소유상황보고서 공시뷰어 새창">임원ㆍ주요주주특정증권등소유상황보고서</a>
+[77]<a title="삼성전자 기업개황 새창">삼성전자</a>
+[78]<a id="r_20260413800802" title="최대주주등소유주식변동신고서 공시뷰어 새창">최대주주등소유주식변동신고서</a>
+[79]<a title="삼성전자 기업개황 새창">삼성전자</a>
+[80]<a id="r_20260413002934" title="주식등의대량보유상황보고서(일반) 공시뷰어 새창">주식등의대량보유상황보고서(일반)</a>
+[81]<a>처음으로</a>
+[82]<a>이전</a>
+[83]<a>1</a>
+[84]<a>2</a>
+[85]<a>3</a>
+[86]<a>4</a>
+[87]<a>5</a>
+[88]<a>6</a>
+[89]<a>7</a>
+[90]<a>8</a>
+[91]<a>9</a>
+[92]<a>10</a>
+[93]<a>다음 페이지</a>
+[94]<a>끝 페이지</a>
+2026-05-05 09:35:36,146 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-05 09:35:36,146 [INFO] RAW (attempt 1): '```json {   "thought": "목표(삼성전자 검색 및 검색 버튼 클릭)가 성공적으로 완료되었으므로, 다음 행동은 할 필요 없이 종료한다.",   "action": "done",   "text": "회사명 \'삼성전자\'로 검색을 완료하고 공시 목록 페이지로 이동했습니다." } ```'
+2026-05-05 09:35:36,146 [INFO] THOUGHT: 목표(삼성전자 검색 및 검색 버튼 클릭)가 성공적으로 완료되었으므로, 다음 행동은 할 필요 없이 종료한다.
+2026-05-05 09:35:36,147 [INFO] ACTION : {"action": "done", "text": "회사명 '삼성전자'로 검색을 완료하고 공시 목록 페이지로 이동했습니다."}
+2026-05-05 09:35:36,147 [INFO] RESULT : DONE — 회사명 '삼성전자'로 검색을 완료하고 공시 목록 페이지로 이동했습니다.
+2026-05-05 09:35:36,158 [INFO] === AGENT END ===

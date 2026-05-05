@@ -1,0 +1,121 @@
+2026-05-05 00:33:49,756 [INFO] === AGENT START ===
+2026-05-05 00:33:49,756 [INFO] log file: C:\Users\fivep\OneDrive\Desktop\HAN_LAB\experiments\browser_agent\logs\run_20260505_003349.log
+2026-05-05 00:33:49,756 [INFO] GOAL    : 검색창에 'lo-fi study' 입력하고 검색 실행
+2026-05-05 00:33:49,756 [INFO] PROVIDER: ollama
+2026-05-05 00:33:49,766 [INFO] MODEL   : gemma4
+2026-05-05 00:33:50,751 [INFO] START URL: https://www.youtube.com
+2026-05-05 00:33:53,834 [INFO] === STEP 1 ===
+2026-05-05 00:33:53,834 [INFO] URL  : https://www.youtube.com/
+2026-05-05 00:33:53,835 [INFO] TITLE: YouTube
+2026-05-05 00:33:53,835 [INFO] --- INDEX ---
+2026-05-05 00:33:53,835 [INFO] [1]<button id="button" aria-label="가이드"></button>
+[2]<a id="logo" title="YouTube 홈"></a>
+[3]<input name="search_query" type="text" role="combobox">검색</input>
+[4]<button aria-label="Search" title="검색"></button>
+[5]<button aria-label="음성으로 검색"></button>
+[6]<button aria-label="만들기">만들기</button>
+[7]<button id="button" aria-label="알림"></button>
+[8]<button id="avatar-btn" aria-label="계정 메뉴"></button>
+[9]<a id="endpoint" aria-label="홈" title="홈">홈</a>
+[10]<a id="endpoint" aria-label="Shorts" title="Shorts">Shorts</a>
+[11]<a id="endpoint" aria-label="구독" title="구독">구독</a>
+[12]<a id="endpoint" aria-label="내 페이지" title="내 페이지">내 페이지</a>
+2026-05-05 00:34:06,170 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-05 00:34:06,170 [INFO] RAW (attempt 1): '{"thought": "사용자의 목표는 검색창에 \'lo-fi study\'를 입력하고 검색을 실행하는 것이다. 목록 중 [3]이 검색창이므로, 여기에 텍스트를 입력한다.", "action": "type", "index": 3, "text": "lo-fi study"}'
+2026-05-05 00:34:06,170 [INFO] THOUGHT: 사용자의 목표는 검색창에 'lo-fi study'를 입력하고 검색을 실행하는 것이다. 목록 중 [3]이 검색창이므로, 여기에 텍스트를 입력한다.
+2026-05-05 00:34:06,170 [INFO] ACTION : {"action": "type", "index": 3, "text": "lo-fi study"}
+2026-05-05 00:34:06,223 [INFO] RESULT : OK: typed into [3] -> 'lo-fi study'
+2026-05-05 00:34:07,740 [INFO] === STEP 2 ===
+2026-05-05 00:34:07,740 [INFO] URL  : https://www.youtube.com/
+2026-05-05 00:34:07,740 [INFO] TITLE: YouTube
+2026-05-05 00:34:07,740 [INFO] --- INDEX ---
+2026-05-05 00:34:07,740 [INFO] [1]<button id="button" aria-label="가이드"></button>
+[2]<a id="logo" title="YouTube 홈"></a>
+[3]<input name="search_query" type="text" role="combobox">lo-fi study</input>
+[4]<button aria-label="검색어 삭제"></button>
+[5]<button aria-label="Search" title="검색"></button>
+[6]<span role="button">lofi study</span>
+[7]<span role="button">lofi study with me</span>
+[8]<span role="button">lofi study playlist</span>
+[9]<span role="button">lofi study jazz</span>
+[10]<span role="button">lofi study room</span>
+[11]<span role="button">lofi study music no ads</span>
+[12]<span role="button">lofi study fassounds</span>
+[13]<span role="button">lofi studying</span>
+[14]<span role="button">lofi study no ads</span>
+[15]<span role="button">lofi study 1 hour</span>
+[16]<span role="button">lofi study no lyrics</span>
+[17]<span role="button">Lofi Study Beats</span>
+[18]<span role="button">Lofi study music</span>
+[19]<span role="button">Lofi Study Chill</span>
+[20]<button>예상 검색어 신고</button>
+[21]<button aria-label="음성으로 검색"></button>
+[22]<button aria-label="만들기">만들기</button>
+[23]<button id="button" aria-label="알림"></button>
+[24]<button id="avatar-btn" aria-label="계정 메뉴"></button>
+[25]<a id="endpoint" aria-label="홈" title="홈">홈</a>
+[26]<a id="endpoint" aria-label="Shorts" title="Shorts">Shorts</a>
+[27]<a id="endpoint" aria-label="구독" title="구독">구독</a>
+[28]<a id="endpoint" aria-label="내 페이지" title="내 페이지">내 페이지</a>
+2026-05-05 00:34:10,690 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-05 00:34:10,690 [INFO] RAW (attempt 1): '{"thought": "검색창에 텍스트를 입력한 후에는 검색을 실행해야 한다. 목록을 보니 [5] 버튼이 \'Search\'라는 aria-label을 가지고 있어 검색 버튼 역할을 할 것으로 보인다. 이 버튼을 클릭하여 검색을 실행한다.", "action": "click", "index": 5}'
+2026-05-05 00:34:10,690 [INFO] THOUGHT: 검색창에 텍스트를 입력한 후에는 검색을 실행해야 한다. 목록을 보니 [5] 버튼이 'Search'라는 aria-label을 가지고 있어 검색 버튼 역할을 할 것으로 보인다. 이 버튼을 클릭하여 검색을 실행한다.
+2026-05-05 00:34:10,691 [INFO] ACTION : {"action": "click", "index": 5}
+2026-05-05 00:34:10,761 [INFO] RESULT : OK: clicked [5]
+2026-05-05 00:34:12,466 [INFO] === STEP 3 ===
+2026-05-05 00:34:12,466 [INFO] URL  : https://www.youtube.com/results?search_query=lo-fi+study
+2026-05-05 00:34:12,466 [INFO] TITLE: lo-fi study - YouTube
+2026-05-05 00:34:12,466 [INFO] --- INDEX ---
+2026-05-05 00:34:12,466 [INFO] [1]<button id="button" aria-label="가이드"></button>
+[2]<a id="logo" title="YouTube 홈"></a>
+[3]<input name="search_query" type="text" role="combobox">lo-fi study</input>
+[4]<button aria-label="검색어 삭제"></button>
+[5]<button aria-label="Search" title="검색"></button>
+[6]<button aria-label="음성으로 검색"></button>
+[7]<button aria-label="만들기">만들기</button>
+[8]<button id="button" aria-label="알림"></button>
+[9]<button id="avatar-btn" aria-label="계정 메뉴"></button>
+[10]<a id="endpoint" aria-label="홈" title="홈">홈</a>
+[11]<a id="endpoint" aria-label="Shorts" title="Shorts">Shorts</a>
+[12]<a id="endpoint" aria-label="구독" title="구독">구독</a>
+[13]<a id="endpoint" aria-label="내 페이지" title="내 페이지">내 페이지</a>
+[14]<button role="tab">전체</button>
+[15]<button role="tab">Shorts</button>
+[16]<button role="tab">시청하지 않음</button>
+[17]<button role="tab">감상한 동영상</button>
+[18]<button role="tab">동영상</button>
+[19]<button role="tab">최근에 업로드된 동영상</button>
+[20]<button role="tab">라이브</button>
+[21]<button aria-label="검색 필터">필터</button>
+[22]<a>lofi study</a>
+[23]<a>방구석을 아늑한 카페로! 지친 뇌를 다독이고 공부 효율을 높여주는 스터디 플레이리스트</a>
+[24]<a>방구석을 아늑한 카페로! 지친 뇌를 다독이고 공부 효율을 높여주는 스터디 플레이리스트</a>
+[25]<div aria-label="M.U.S.T (Murmur Studio)" role="button"></div>
+[26]<button aria-label="내 광고 센터"></button>
+[27]<a aria-label="시청">시청</a>
+[28]<a aria-label="사이트 방문">사이트 방문</a>
+[29]<a id="video-title" aria-label="1 A.M Study Session 📚 [lofi hip hop] 1시간 1분" title="1 A.M Study Session 📚 [lofi hip hop]">1 A.M Study Session 📚 [lofi hip hop]</a>
+[30]<a id="channel-thumbnail" aria-label="Lofi Girl 채널로 이동"></a>
+[31]<a>Lofi Girl</a>
+[32]<div id="collapsed-title" role="button">Intro | WYS - Snowman | Fatb - Cotton Cloud | rook1e x tender spring - the place</div>
+[33]<button aria-label="더보기"></button>
+[34]<a id="video-title" aria-label="I need concentration when studying in the library | 3 hour lofi hip hop mix/ lofi music for studying 2시간 35분" title="I need concentration when studying in the library | 3 hour lofi hip hop mix/ lofi music for studying">I need concentration when studying in the library | 3 hour lofi hip hop mix/ lof</a>
+[35]<a id="channel-thumbnail" aria-label="Lofi 코딩 채널로 이동"></a>
+[36]<a>Lofi 코딩</a>
+[37]<div id="collapsed-title" role="button">Ambulo - Stargazing w- mell-ø | Stay The Same (w- Ambulo) | Breathe (w- Ambulo) </div>
+[38]<button aria-label="더보기"></button>
+[39]<a>AI 로파이 음악 생성기 – 저작권 걱정 없는 Lo-Fi 트랙</a>
+[40]<a>AI 로파이 음악 생성기 – 저작권 걱정 없는 Lo-Fi 트랙</a>
+[41]<button aria-label="내 광고 센터"></button>
+[42]<a id="video-title" aria-label="lofi hip hop radio 📚 beats to relax/study to" title="lofi hip hop radio 📚 beats to relax/study to">lofi hip hop radio 📚 beats to relax/study to</a>
+[43]<a id="channel-thumbnail" aria-label="Lofi Girl 채널로 이동"></a>
+[44]<a>Lofi Girl</a>
+2026-05-05 00:34:17,021 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-05 00:34:17,021 [INFO] RAW (attempt 1): ''
+2026-05-05 00:34:17,022 [WARNING] [PARSE FAIL attempt 1/2] Expecting value: line 1 column 1 (char 0)
+2026-05-05 00:34:24,967 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-05 00:34:24,967 [INFO] RAW (attempt 2): '{"thought": "목표인 검색창 입력 및 검색 실행은 완료되었고, 검색 결과 페이지에 성공적으로 도달했다. 더 이상 할 행동은 없어 \'done\'으로 종료한다.", "action": "done", "index": null, "text": "사용자가 요청한 검색(\'lo-fi study\')이 성공적으로 실행되었고, 유튜브 검색 결과 페이지로 이동했습니다."'
+2026-05-05 00:34:24,967 [INFO] THOUGHT: 목표인 검색창 입력 및 검색 실행은 완료되었고, 검색 결과 페이지에 성공적으로 도달했다. 더 이상 할 행동은 없어 'done'으로 종료한다.
+2026-05-05 00:34:24,968 [INFO] ACTION : {"action": "done", "index": null, "text": "사용자가 요청한 검색('lo-fi study')이 성공적으로 실행되었고, 유튜브 검색 결과 페이지로 이동했습니다."}
+2026-05-05 00:34:24,968 [INFO] RESULT : DONE — 사용자가 요청한 검색('lo-fi study')이 성공적으로 실행되었고, 유튜브 검색 결과 페이지로 이동했습니다.
+2026-05-05 00:34:24,979 [INFO] === AGENT END ===

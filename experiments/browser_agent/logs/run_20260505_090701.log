@@ -1,0 +1,57 @@
+2026-05-05 09:07:01,840 [INFO] === AGENT START ===
+2026-05-05 09:07:01,840 [INFO] log file: C:\Users\fivep\OneDrive\Desktop\HAN_LAB\experiments\browser_agent\logs\run_20260505_090701.log
+2026-05-05 09:07:01,840 [INFO] GOAL    : 비트코인 BTC-USD 시세 페이지가 열렸으면 done
+2026-05-05 09:07:01,840 [INFO] MODE    : action
+2026-05-05 09:07:01,840 [INFO] PROVIDER: gemini
+2026-05-05 09:07:01,877 [INFO] MODEL   : gemini-2.5-flash
+2026-05-05 09:07:08,600 [INFO] START URL: https://finance.yahoo.com/quote/BTC-USD/
+2026-05-05 09:07:09,810 [WARNING] goto 실패: Page.goto: net::ERR_BLOCKED_BY_RESPONSE at https://finance.yahoo.com/quote/BTC-USD/
+Call log:
+  - navigating to "https://finance.yahoo.com/quote/BTC-USD/", waiting until "domcontentloaded"
+ (현재 페이지 그대로 진행)
+2026-05-05 09:07:09,810 [INFO] START URL: https://finance.yahoo.com/quote/BTC-USD/
+2026-05-05 09:07:24,817 [WARNING] goto 실패: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "https://finance.yahoo.com/quote/BTC-USD/", waiting until "domcontentloaded"
+
+2026-05-05 09:07:25,334 [INFO] === STEP 1 ===
+2026-05-05 09:07:25,334 [INFO] URL  : https://finance.yahoo.com/quote/AAPL/
+2026-05-05 09:07:25,335 [INFO] TITLE: www.coingecko.com
+2026-05-05 09:07:25,335 [INFO] --- INDEX ---
+2026-05-05 09:07:25,335 [INFO] (없음)
+2026-05-05 09:07:29,072 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-05 09:07:29,073 [INFO] RAW (attempt 1): '{"thought": "현재 페이지는 야후 파이낸스의 애플 주식 페이지이며, 목표는 비트코인 BTC-USD 시세 페이지로 이동하는 것이다. 현재 페이지에 인터랙티브 요소가 없으므로, 검색창을 찾기 위해 페이지를 아래로 스크롤해야 할 것 같다.", "action": "scroll", "text": "down"}'
+2026-05-05 09:07:29,073 [INFO] THOUGHT: 현재 페이지는 야후 파이낸스의 애플 주식 페이지이며, 목표는 비트코인 BTC-USD 시세 페이지로 이동하는 것이다. 현재 페이지에 인터랙티브 요소가 없으므로, 검색창을 찾기 위해 페이지를 아래로 스크롤해야 할 것 같다.
+2026-05-05 09:07:29,074 [INFO] ACTION : {"action": "scroll", "text": "down"}
+2026-05-05 09:07:29,080 [INFO] RESULT : OK: scrolled down
+2026-05-05 09:07:30,590 [INFO] === STEP 2 ===
+2026-05-05 09:07:30,590 [INFO] URL  : https://finance.yahoo.com/quote/AAPL/
+2026-05-05 09:07:30,590 [INFO] TITLE: www.coingecko.com
+2026-05-05 09:07:30,590 [INFO] --- INDEX ---
+2026-05-05 09:07:30,590 [INFO] (없음)
+2026-05-05 09:07:31,921 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-05 09:07:31,924 [INFO] RAW (attempt 1): '{"thought": "페이지를 아래로 스크롤했지만 여전히 인터랙티브 요소가 없다. 현재 페이지는 야후 파이낸스 애플 주식 페이지이므로, 비트코인 시세를 찾기 위해서는 검색창을 찾아 \'BTC-USD\'를 검색해야 한다. 다시 스크롤하여 검색창을 찾아보겠다.", "action": "scroll", "text": "down"}'
+2026-05-05 09:07:31,924 [INFO] THOUGHT: 페이지를 아래로 스크롤했지만 여전히 인터랙티브 요소가 없다. 현재 페이지는 야후 파이낸스 애플 주식 페이지이므로, 비트코인 시세를 찾기 위해서는 검색창을 찾아 'BTC-USD'를 검색해야 한다. 다시 스크롤하여 검색창을 찾아보겠다.
+2026-05-05 09:07:31,924 [INFO] ACTION : {"action": "scroll", "text": "down"}
+2026-05-05 09:07:31,928 [INFO] RESULT : OK: scrolled down
+2026-05-05 09:07:33,439 [INFO] === STEP 3 ===
+2026-05-05 09:07:33,439 [INFO] URL  : https://finance.yahoo.com/quote/AAPL/
+2026-05-05 09:07:33,439 [INFO] TITLE: www.coingecko.com
+2026-05-05 09:07:33,439 [INFO] --- INDEX ---
+2026-05-05 09:07:33,439 [INFO] (없음)
+2026-05-05 09:07:34,795 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-05 09:07:34,796 [INFO] RAW (attempt 1): '{"thought": "두 번 스크롤했지만 여전히 인터랙티브 요소가 없다. 현재 페이지는 야후 파이낸스 애플 주식 페이지이며, 비트코인 시세 페이지로 이동하려면 검색창을 찾아 \'BTC-USD\'를 검색해야 한다. 페이지 상단에 검색창이 있을 가능성이 높으므로, 페이지를 위로 스크롤하여 검색창을 찾아보겠다.", "action": "scroll", "text":'
+2026-05-05 09:07:34,796 [INFO] THOUGHT: 두 번 스크롤했지만 여전히 인터랙티브 요소가 없다. 현재 페이지는 야후 파이낸스 애플 주식 페이지이며, 비트코인 시세 페이지로 이동하려면 검색창을 찾아 'BTC-USD'를 검색해야 한다. 페이지 상단에 검색창이 있을 가능성이 높으므로, 페이지를 위로 스크롤하여 검색창을 찾아보겠다.
+2026-05-05 09:07:34,796 [INFO] ACTION : {"action": "scroll", "text": "up"}
+2026-05-05 09:07:34,800 [INFO] RESULT : OK: scrolled up
+2026-05-05 09:07:36,310 [INFO] === STEP 4 ===
+2026-05-05 09:07:36,310 [INFO] URL  : https://finance.yahoo.com/quote/AAPL/
+2026-05-05 09:07:36,310 [INFO] TITLE: www.coingecko.com
+2026-05-05 09:07:36,310 [INFO] --- INDEX ---
+2026-05-05 09:07:36,310 [INFO] (없음)
+2026-05-05 09:07:38,222 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-05 09:07:38,223 [INFO] RAW (attempt 1): '{"thought": "페이지를 위로 스크롤했지만 여전히 인터랙티브 요소가 없다. 현재 페이지는 야후 파이낸스 애플 주식 페이지이며, 비트코인 시세 페이지로 이동하려면 검색창을 찾아 \'BTC-USD\'를 검색해야 한다. 현재 페이지에 검색창이 없는 것 같으므로, URL을 직접 변경하여 야후 파이낸스 메인 페이지로 이동한 후 검색을 시도하는 것이 더 효율적일 '
+2026-05-05 09:07:38,223 [INFO] THOUGHT: 페이지를 위로 스크롤했지만 여전히 인터랙티브 요소가 없다. 현재 페이지는 야후 파이낸스 애플 주식 페이지이며, 비트코인 시세 페이지로 이동하려면 검색창을 찾아 'BTC-USD'를 검색해야 한다. 현재 페이지에 검색창이 없는 것 같으므로, URL을 직접 변경하여 야후 파이낸스 메인 페이지로 이동한 후 검색을 시도하는 것이 더 효율적일 수 있다. 하지만 현재 에이전트는 URL을 직접 변경할 수 없으므로, 현재 페이지에서 검색창을 찾거나, 더 이상 진행할 수 없다고 판단해야 한다. 현재 페이지에서 더 이상 진행할 수 있는 방법이 없으므로 'done'으로 종료한다.
+2026-05-05 09:07:38,223 [INFO] ACTION : {"action": "done", "text": "현재 페이지에서 비트코인 BTC-USD 시세 페이지로 이동할 수 있는 인터랙티브 요소나 검색창을 찾을 수 없습니다."}
+2026-05-05 09:07:38,223 [INFO] RESULT : DONE — 현재 페이지에서 비트코인 BTC-USD 시세 페이지로 이동할 수 있는 인터랙티브 요소나 검색창을 찾을 수 없습니다.
+2026-05-05 09:07:38,236 [INFO] === AGENT END ===

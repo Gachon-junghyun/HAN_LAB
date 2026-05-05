@@ -1,0 +1,88 @@
+2026-05-05 00:43:55,200 [INFO] === AGENT START ===
+2026-05-05 00:43:55,200 [INFO] log file: C:\Users\fivep\OneDrive\Desktop\HAN_LAB\experiments\browser_agent\logs\run_20260505_004355.log
+2026-05-05 00:43:55,200 [INFO] GOAL    : 맨 위 게시물 제목을 클릭
+2026-05-05 00:43:55,200 [INFO] PROVIDER: ollama
+2026-05-05 00:43:55,210 [INFO] MODEL   : gemma4
+2026-05-05 00:43:56,139 [INFO] START URL: https://www.reddit.com/r/programming/
+2026-05-05 00:43:59,208 [INFO] === STEP 1 ===
+2026-05-05 00:43:59,208 [INFO] URL  : https://www.reddit.com/r/programming/
+2026-05-05 00:43:59,208 [INFO] TITLE: programming
+2026-05-05 00:43:59,208 [INFO] --- INDEX ---
+2026-05-05 00:43:59,208 [INFO] [1]<button id="navbar-menu-button" type="button">메뉴 열기</button>
+[2]<a id="reddit-logo" aria-label="홈"></a>
+[3]<button id="header-action-item-chat-button">채팅 열기</button>
+[4]<a id="create-post" aria-label="게시물 만들기">게시물 만들기</a>
+[5]<a id="notifications-inbox-button">받은 편지함 열기</a>
+[6]<button id="expand-user-drawer-button" type="button">사용자 메뉴 펼치기</button>
+[7]<a>게시물 만들기</a>
+[8]<a>Announcement: Temporary LLM Content Ban 공지 투표 2.8천개 • 댓글 325개</a>
+[9]<a>State of the Subreddit (January 2027): Mods applications and rules updates 공지 투표</a>
+[10]<a>Fake It Until You Break It: The End Of Non-Technical Managers In Software Engine</a>
+[11]<a aria-label="작성자는 u/derjanni입니다">u/derjanni</a>
+[12]<button aria-label="사용자 작업 열기"></button>
+[13]<a title="Link from r/programming - Fake It Until You Break It: The End Of Non-Technical Managers In Software Engineering Dawns">https://programmers.fyi/fake-it-until-you-break-it-the-end-of-non-technical-mana</a>
+[14]<a>u/Apryse</a>
+[15]<a>홍보 광고</a>
+[16]<button aria-label="사용자 작업 열기"></button>
+[17]<a>FAQ</a>
+[18]<div>1 [April Trial] No LLM-related posts.</div>
+[19]<div>2 No LLM-Written Content</div>
+[20]<div>3 No Political Posts or Personal/Social Drama/Gossip</div>
+[21]<div>4 No Non-Programming/Generic LLM/Diffusion Content</div>
+[22]<div>5 No Product Promotion/"I Made This" Project Demo Posts</div>
+[23]<div>6 No Content Aggregators</div>
+[24]<div>7 No Surveys Or Job Postings</div>
+[25]<div>8 No Support Questions or AskReddit-Type Questions</div>
+[26]<div>9 No Meta Posts</div>
+[27]<div>10 No Images, Memes, Or Other Low Effort Posts</div>
+[28]<div>11 No Blogspam</div>
+[29]<div>12 No Extreme Beginner Content</div>
+[30]<div>13 Comments: No Bots</div>
+[31]<div>14 Comments: No Incivility</div>
+2026-05-05 00:44:08,689 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-05 00:44:08,690 [INFO] RAW (attempt 1): '{"thought": "사용자의 목표는 \'맨 위 게시물 제목을 클릭\'하는 것입니다. 목록에서 가장 위에 위치한 게시물 제목은 [8]번 요소입니다.", "action": "click", "index": 8, "text": ""}'
+2026-05-05 00:44:08,690 [INFO] THOUGHT: 사용자의 목표는 '맨 위 게시물 제목을 클릭'하는 것입니다. 목록에서 가장 위에 위치한 게시물 제목은 [8]번 요소입니다.
+2026-05-05 00:44:08,690 [INFO] ACTION : {"action": "click", "index": 8, "text": ""}
+2026-05-05 00:44:08,824 [INFO] RESULT : OK: clicked [8]
+2026-05-05 00:44:10,363 [INFO] === STEP 2 ===
+2026-05-05 00:44:10,363 [INFO] URL  : https://www.reddit.com/r/programming/comments/1s9jkzi/announcement_temporary_llm_content_ban/
+2026-05-05 00:44:10,363 [INFO] TITLE: Announcement: Temporary LLM Content Ban : r/programming
+2026-05-05 00:44:10,363 [INFO] --- INDEX ---
+2026-05-05 00:44:10,363 [INFO] [1]<button id="navbar-menu-button" type="button">메뉴 열기</button>
+[2]<a id="reddit-logo" aria-label="홈"></a>
+[3]<button id="header-action-item-chat-button">채팅 열기</button>
+[4]<a id="create-post" aria-label="게시물 만들기">만들기 게시물 만들기</a>
+[5]<a id="notifications-inbox-button">받은 편지함 열기</a>
+[6]<button id="expand-user-drawer-button" type="button">사용자 메뉴 펼치기</button>
+[7]<a>programming 커뮤니티로 이동</a>
+[8]<a>r/programming</a>
+[9]<a aria-label="작성자는 ChemicalRascal입니다">ChemicalRascal</a>
+[10]<button aria-label="사용자 작업 열기"></button>
+[11]<button aria-label="공유" type="button">공유</button>
+[12]<a>FAQ</a>
+[13]<div>1 [April Trial] No LLM-related posts.</div>
+[14]<div>2 No LLM-Written Content</div>
+[15]<div>3 No Political Posts or Personal/Social Drama/Gossip</div>
+[16]<div>4 No Non-Programming/Generic LLM/Diffusion Content</div>
+[17]<div>5 No Product Promotion/"I Made This" Project Demo Posts</div>
+[18]<div>6 No Content Aggregators</div>
+[19]<div>7 No Surveys Or Job Postings</div>
+[20]<div>8 No Support Questions or AskReddit-Type Questions</div>
+[21]<div>9 No Meta Posts</div>
+[22]<div>10 No Images, Memes, Or Other Low Effort Posts</div>
+[23]<div>11 No Blogspam</div>
+[24]<div>12 No Extreme Beginner Content</div>
+[25]<div>13 Comments: No Bots</div>
+[26]<div>14 Comments: No Incivility</div>
+[27]<a>/r/learnprogramming</a>
+[28]<a>/r/cscareerquestions</a>
+[29]<a>Stack Overflow</a>
+2026-05-05 00:44:15,560 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-05 00:44:15,560 [INFO] RAW (attempt 1): ''
+2026-05-05 00:44:15,560 [WARNING] [PARSE FAIL attempt 1/3] Expecting value: line 1 column 1 (char 0)
+2026-05-05 00:44:25,300 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-05 00:44:25,301 [INFO] RAW (attempt 2): '{"thought": "이전에 게시물 제목을 클릭하여 본문 페이지로 이동했으므로, 목표는 이미 달성되었습니다.", "action": "done", "index": null, "text": "맨 위 게시물 제목 클릭 완료"}'
+2026-05-05 00:44:25,301 [INFO] THOUGHT: 이전에 게시물 제목을 클릭하여 본문 페이지로 이동했으므로, 목표는 이미 달성되었습니다.
+2026-05-05 00:44:25,301 [INFO] ACTION : {"action": "done", "index": null, "text": "맨 위 게시물 제목 클릭 완료"}
+2026-05-05 00:44:25,301 [INFO] RESULT : DONE — 맨 위 게시물 제목 클릭 완료
+2026-05-05 00:44:25,313 [INFO] === AGENT END ===

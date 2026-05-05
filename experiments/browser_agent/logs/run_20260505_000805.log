@@ -1,0 +1,83 @@
+2026-05-05 00:08:05,837 [INFO] === AGENT START ===
+2026-05-05 00:08:05,838 [INFO] log file: C:\Users\fivep\OneDrive\Desktop\HAN_LAB\experiments\browser_agent\logs\run_20260505_000805.log
+2026-05-05 00:08:05,838 [INFO] GOAL    : Customer name 칸에 '홍길동', telephone 칸에 '010-0000-0000' 입력 후 Submit order 버튼 클릭
+2026-05-05 00:08:05,838 [INFO] PROVIDER: ollama
+2026-05-05 00:08:05,848 [INFO] MODEL   : gemma4
+2026-05-05 00:08:06,785 [INFO] START URL: https://httpbin.org/forms/post
+2026-05-05 00:08:09,502 [INFO] === STEP 1 ===
+2026-05-05 00:08:09,502 [INFO] URL  : https://httpbin.org/forms/post
+2026-05-05 00:08:09,503 [INFO] TITLE: 
+2026-05-05 00:08:09,503 [INFO] --- INDEX ---
+2026-05-05 00:08:09,503 [INFO] [1]<input name="custname"></input>
+[2]<input name="custtel" type="tel"></input>
+[3]<input name="custemail" type="email"></input>
+[4]<input name="size" type="radio">small</input>
+[5]<input name="size" type="radio">medium</input>
+[6]<input name="size" type="radio">large</input>
+[7]<input name="topping" type="checkbox">bacon</input>
+[8]<input name="topping" type="checkbox">cheese</input>
+[9]<input name="topping" type="checkbox">onion</input>
+[10]<input name="topping" type="checkbox">mushroom</input>
+[11]<input name="delivery" type="time"></input>
+[12]<textarea name="comments"></textarea>
+[13]<button>Submit order</button>
+2026-05-05 00:08:20,285 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-05 00:08:20,286 [INFO] RAW (attempt 1): '```json {   "thought": "사용자 목표에 따라 \'Customer name\' 칸(인덱스 1)에 \'홍길동\'을 입력한다.",   "action": "type",   "index": 1,   "text": "홍길동" } ```'
+2026-05-05 00:08:20,286 [INFO] THOUGHT: 사용자 목표에 따라 'Customer name' 칸(인덱스 1)에 '홍길동'을 입력한다.
+2026-05-05 00:08:20,286 [INFO] ACTION : {"action": "type", "index": 1, "text": "홍길동"}
+2026-05-05 00:08:20,335 [INFO] RESULT : OK: typed into [1] -> '홍길동'
+2026-05-05 00:08:21,856 [INFO] === STEP 2 ===
+2026-05-05 00:08:21,856 [INFO] URL  : https://httpbin.org/forms/post
+2026-05-05 00:08:21,856 [INFO] TITLE: 
+2026-05-05 00:08:21,856 [INFO] --- INDEX ---
+2026-05-05 00:08:21,857 [INFO] [1]<input name="custname">홍길동</input>
+[2]<input name="custtel" type="tel"></input>
+[3]<input name="custemail" type="email"></input>
+[4]<input name="size" type="radio">small</input>
+[5]<input name="size" type="radio">medium</input>
+[6]<input name="size" type="radio">large</input>
+[7]<input name="topping" type="checkbox">bacon</input>
+[8]<input name="topping" type="checkbox">cheese</input>
+[9]<input name="topping" type="checkbox">onion</input>
+[10]<input name="topping" type="checkbox">mushroom</input>
+[11]<input name="delivery" type="time"></input>
+[12]<textarea name="comments"></textarea>
+[13]<button>Submit order</button>
+2026-05-05 00:08:29,138 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-05 00:08:29,138 [INFO] RAW (attempt 1): '```json {   "thought": "다음으로 \'telephone 칸\'(인덱스 2)에 \'010-0000-0000\'을 입력한다.",   "action": "type",   "index": 2,   "text": "010-0000-0000" } ```'
+2026-05-05 00:08:29,138 [INFO] THOUGHT: 다음으로 'telephone 칸'(인덱스 2)에 '010-0000-0000'을 입력한다.
+2026-05-05 00:08:29,139 [INFO] ACTION : {"action": "type", "index": 2, "text": "010-0000-0000"}
+2026-05-05 00:08:29,154 [INFO] RESULT : OK: typed into [2] -> '010-0000-0000'
+2026-05-05 00:08:30,676 [INFO] === STEP 3 ===
+2026-05-05 00:08:30,676 [INFO] URL  : https://httpbin.org/forms/post
+2026-05-05 00:08:30,676 [INFO] TITLE: 
+2026-05-05 00:08:30,676 [INFO] --- INDEX ---
+2026-05-05 00:08:30,676 [INFO] [1]<input name="custname">홍길동</input>
+[2]<input name="custtel" type="tel">010-0000-0000</input>
+[3]<input name="custemail" type="email"></input>
+[4]<input name="size" type="radio">small</input>
+[5]<input name="size" type="radio">medium</input>
+[6]<input name="size" type="radio">large</input>
+[7]<input name="topping" type="checkbox">bacon</input>
+[8]<input name="topping" type="checkbox">cheese</input>
+[9]<input name="topping" type="checkbox">onion</input>
+[10]<input name="topping" type="checkbox">mushroom</input>
+[11]<input name="delivery" type="time"></input>
+[12]<textarea name="comments"></textarea>
+[13]<button>Submit order</button>
+2026-05-05 00:08:33,588 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-05 00:08:33,589 [INFO] RAW (attempt 1): '```json {   "thought": "모든 정보를 입력했으므로, 마지막으로 \'Submit order\' 버튼(인덱스 13)을 클릭하여 주문을 제출한다.",   "action": "click",   "index": 13,   "text": "" } ```'
+2026-05-05 00:08:33,589 [INFO] THOUGHT: 모든 정보를 입력했으므로, 마지막으로 'Submit order' 버튼(인덱스 13)을 클릭하여 주문을 제출한다.
+2026-05-05 00:08:33,589 [INFO] ACTION : {"action": "click", "index": 13, "text": ""}
+2026-05-05 00:08:33,874 [INFO] RESULT : OK: clicked [13]
+2026-05-05 00:08:35,400 [INFO] === STEP 4 ===
+2026-05-05 00:08:35,401 [INFO] URL  : https://httpbin.org/post
+2026-05-05 00:08:35,401 [INFO] TITLE: 
+2026-05-05 00:08:35,401 [INFO] --- INDEX ---
+2026-05-05 00:08:35,401 [INFO] (없음)
+2026-05-05 00:08:40,692 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-05 00:08:40,693 [INFO] RAW (attempt 1): '```json {   "thought": "주문 제출(Submit order 클릭)을 완료하여 목표를 달성했다. 더 이상 행동할 필요가 없으므로 종료한다.",   "action": "done",   "index": null,   "text": "주문 정보 입력 및 제출까지 완료되었습니다." } ```'
+2026-05-05 00:08:40,693 [INFO] THOUGHT: 주문 제출(Submit order 클릭)을 완료하여 목표를 달성했다. 더 이상 행동할 필요가 없으므로 종료한다.
+2026-05-05 00:08:40,693 [INFO] ACTION : {"action": "done", "index": null, "text": "주문 정보 입력 및 제출까지 완료되었습니다."}
+2026-05-05 00:08:40,693 [INFO] RESULT : DONE — 주문 정보 입력 및 제출까지 완료되었습니다.
+2026-05-05 00:08:40,705 [INFO] === AGENT END ===

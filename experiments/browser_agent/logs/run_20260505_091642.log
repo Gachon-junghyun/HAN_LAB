@@ -1,0 +1,210 @@
+2026-05-05 09:16:42,207 [INFO] === AGENT START ===
+2026-05-05 09:16:42,207 [INFO] log file: C:\Users\fivep\OneDrive\Desktop\HAN_LAB\experiments\browser_agent\logs\run_20260505_091642.log
+2026-05-05 09:16:42,207 [INFO] GOAL    : 검색창에 'AAPL' 입력하고 검색 결과에서 Apple 종목 페이지로 이동
+2026-05-05 09:16:42,207 [INFO] MODE    : action
+2026-05-05 09:16:42,207 [INFO] PROVIDER: gemini
+2026-05-05 09:16:42,239 [INFO] MODEL   : gemini-2.5-flash
+2026-05-05 09:16:43,180 [INFO] START URL: https://www.marketwatch.com/
+2026-05-05 09:16:45,432 [INFO] START URL: https://www.marketwatch.com/
+2026-05-05 09:16:48,730 [INFO] === STEP 1 ===
+2026-05-05 09:16:48,730 [INFO] URL  : https://www.marketwatch.com/
+2026-05-05 09:16:48,730 [INFO] TITLE: MarketWatch: Stock Market News - Financial News - MarketWatch
+2026-05-05 09:16:48,730 [INFO] --- INDEX ---
+2026-05-05 09:16:48,730 [INFO] (없음)
+2026-05-05 09:16:50,052 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-05 09:16:50,053 [INFO] RAW (attempt 1): '{"action": "scroll", "text": "down"}'
+2026-05-05 09:16:50,053 [INFO] THOUGHT: 
+2026-05-05 09:16:50,053 [INFO] ACTION : {"action": "scroll", "text": "down"}
+2026-05-05 09:16:50,193 [INFO] RESULT : OK: scrolled down
+2026-05-05 09:16:51,868 [INFO] === STEP 2 ===
+2026-05-05 09:16:51,868 [INFO] URL  : https://www.marketwatch.com/
+2026-05-05 09:16:51,868 [INFO] TITLE: MarketWatch: Stock Market News - Financial News - MarketWatch
+2026-05-05 09:16:51,868 [INFO] --- INDEX ---
+2026-05-05 09:16:51,868 [INFO] (없음)
+2026-05-05 09:16:52,591 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-05 09:16:52,592 [INFO] RAW (attempt 1): '{"action": "scroll", "text": "down"}'
+2026-05-05 09:16:52,592 [INFO] THOUGHT: 
+2026-05-05 09:16:52,592 [INFO] ACTION : {"action": "scroll", "text": "down"}
+2026-05-05 09:16:52,637 [INFO] RESULT : OK: scrolled down
+2026-05-05 09:16:54,175 [INFO] === STEP 3 ===
+2026-05-05 09:16:54,175 [INFO] URL  : https://www.marketwatch.com/
+2026-05-05 09:16:54,175 [INFO] TITLE: MarketWatch: Stock Market News - Financial News - MarketWatch
+2026-05-05 09:16:54,175 [INFO] --- INDEX ---
+2026-05-05 09:16:54,175 [INFO] (없음)
+2026-05-05 09:16:55,134 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-05 09:16:55,135 [INFO] RAW (attempt 1): '{"action": "scroll", "text": "down"}'
+2026-05-05 09:16:55,135 [INFO] THOUGHT: 
+2026-05-05 09:16:55,135 [INFO] ACTION : {"action": "scroll", "text": "down"}
+2026-05-05 09:16:55,140 [INFO] RESULT : OK: scrolled down
+2026-05-05 09:16:56,760 [INFO] === STEP 4 ===
+2026-05-05 09:16:56,760 [INFO] URL  : https://www.marketwatch.com/
+2026-05-05 09:16:56,760 [INFO] TITLE: MarketWatch: Stock Market News - Financial News - MarketWatch
+2026-05-05 09:16:56,760 [INFO] --- INDEX ---
+2026-05-05 09:16:56,760 [INFO] (없음)
+2026-05-05 09:16:57,799 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-05 09:16:57,800 [INFO] RAW (attempt 1): '{"action": "scroll", "text": "down"}'
+2026-05-05 09:16:57,800 [INFO] THOUGHT: 
+2026-05-05 09:16:57,800 [INFO] ACTION : {"action": "scroll", "text": "down"}
+2026-05-05 09:16:57,858 [INFO] RESULT : OK: scrolled down
+2026-05-05 09:16:59,415 [INFO] === STEP 5 ===
+2026-05-05 09:16:59,415 [INFO] URL  : https://www.marketwatch.com/
+2026-05-05 09:16:59,415 [INFO] TITLE: MarketWatch: Stock Market News - Financial News - MarketWatch
+2026-05-05 09:16:59,415 [INFO] --- INDEX ---
+2026-05-05 09:16:59,415 [INFO] (없음)
+2026-05-05 09:17:00,441 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-05 09:17:00,443 [INFO] RAW (attempt 1): '{"action": "scroll", "text": "down"}'
+2026-05-05 09:17:00,443 [INFO] THOUGHT: 
+2026-05-05 09:17:00,443 [INFO] ACTION : {"action": "scroll", "text": "down"}
+2026-05-05 09:17:00,447 [INFO] RESULT : OK: scrolled down
+2026-05-05 09:17:01,961 [INFO] === STEP 6 ===
+2026-05-05 09:17:01,962 [INFO] URL  : https://www.marketwatch.com/
+2026-05-05 09:17:01,962 [INFO] TITLE: MarketWatch: Stock Market News - Financial News - MarketWatch
+2026-05-05 09:17:01,962 [INFO] --- INDEX ---
+2026-05-05 09:17:01,962 [INFO] (없음)
+2026-05-05 09:17:02,665 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-05 09:17:02,666 [INFO] RAW (attempt 1): '{"action": "scroll", "text": "down"}'
+2026-05-05 09:17:02,666 [INFO] THOUGHT: 
+2026-05-05 09:17:02,666 [INFO] ACTION : {"action": "scroll", "text": "down"}
+2026-05-05 09:17:02,670 [INFO] RESULT : OK: scrolled down
+2026-05-05 09:17:04,184 [INFO] === STEP 7 ===
+2026-05-05 09:17:04,184 [INFO] URL  : https://www.marketwatch.com/
+2026-05-05 09:17:04,184 [INFO] TITLE: MarketWatch: Stock Market News - Financial News - MarketWatch
+2026-05-05 09:17:04,184 [INFO] --- INDEX ---
+2026-05-05 09:17:04,184 [INFO] (없음)
+2026-05-05 09:17:04,965 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-05 09:17:04,967 [INFO] RAW (attempt 1): '{"action": "scroll", "text": "down"}'
+2026-05-05 09:17:04,967 [INFO] THOUGHT: 
+2026-05-05 09:17:04,967 [INFO] ACTION : {"action": "scroll", "text": "down"}
+2026-05-05 09:17:04,972 [INFO] RESULT : OK: scrolled down
+2026-05-05 09:17:06,509 [INFO] === STEP 8 ===
+2026-05-05 09:17:06,509 [INFO] URL  : https://www.marketwatch.com/
+2026-05-05 09:17:06,509 [INFO] TITLE: MarketWatch: Stock Market News - Financial News - MarketWatch
+2026-05-05 09:17:06,509 [INFO] --- INDEX ---
+2026-05-05 09:17:06,509 [INFO] (없음)
+2026-05-05 09:17:07,255 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-05 09:17:07,256 [INFO] RAW (attempt 1): '{"action": "scroll", "text": "down"}'
+2026-05-05 09:17:07,256 [INFO] THOUGHT: 
+2026-05-05 09:17:07,256 [INFO] ACTION : {"action": "scroll", "text": "down"}
+2026-05-05 09:17:07,261 [INFO] RESULT : OK: scrolled down
+2026-05-05 09:17:08,775 [INFO] === STEP 9 ===
+2026-05-05 09:17:08,775 [INFO] URL  : https://www.marketwatch.com/
+2026-05-05 09:17:08,776 [INFO] TITLE: MarketWatch: Stock Market News - Financial News - MarketWatch
+2026-05-05 09:17:08,776 [INFO] --- INDEX ---
+2026-05-05 09:17:08,776 [INFO] (없음)
+2026-05-05 09:17:09,541 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-05 09:17:09,542 [INFO] RAW (attempt 1): '{"action": "scroll", "text": "down"}'
+2026-05-05 09:17:09,543 [INFO] THOUGHT: 
+2026-05-05 09:17:09,543 [INFO] ACTION : {"action": "scroll", "text": "down"}
+2026-05-05 09:17:09,549 [INFO] RESULT : OK: scrolled down
+2026-05-05 09:17:11,083 [INFO] === STEP 10 ===
+2026-05-05 09:17:11,084 [INFO] URL  : https://www.marketwatch.com/
+2026-05-05 09:17:11,084 [INFO] TITLE: MarketWatch: Stock Market News - Financial News - MarketWatch
+2026-05-05 09:17:11,084 [INFO] --- INDEX ---
+2026-05-05 09:17:11,084 [INFO] (없음)
+2026-05-05 09:17:11,809 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-05 09:17:11,810 [INFO] RAW (attempt 1): '{"action": "scroll", "text": "down"}'
+2026-05-05 09:17:11,810 [INFO] THOUGHT: 
+2026-05-05 09:17:11,810 [INFO] ACTION : {"action": "scroll", "text": "down"}
+2026-05-05 09:17:11,815 [INFO] RESULT : OK: scrolled down
+2026-05-05 09:17:13,344 [INFO] === STEP 11 ===
+2026-05-05 09:17:13,344 [INFO] URL  : https://www.marketwatch.com/
+2026-05-05 09:17:13,344 [INFO] TITLE: MarketWatch: Stock Market News - Financial News - MarketWatch
+2026-05-05 09:17:13,344 [INFO] --- INDEX ---
+2026-05-05 09:17:13,344 [INFO] (없음)
+2026-05-05 09:17:14,086 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-05 09:17:14,088 [INFO] RAW (attempt 1): '{"action": "scroll", "text": "down"}'
+2026-05-05 09:17:14,088 [INFO] THOUGHT: 
+2026-05-05 09:17:14,088 [INFO] ACTION : {"action": "scroll", "text": "down"}
+2026-05-05 09:17:14,093 [INFO] RESULT : OK: scrolled down
+2026-05-05 09:17:15,608 [INFO] === STEP 12 ===
+2026-05-05 09:17:15,608 [INFO] URL  : https://www.marketwatch.com/
+2026-05-05 09:17:15,608 [INFO] TITLE: MarketWatch: Stock Market News - Financial News - MarketWatch
+2026-05-05 09:17:15,609 [INFO] --- INDEX ---
+2026-05-05 09:17:15,609 [INFO] (없음)
+2026-05-05 09:17:16,438 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-05 09:17:16,440 [INFO] RAW (attempt 1): '{"action": "scroll", "text": "down"}'
+2026-05-05 09:17:16,440 [INFO] THOUGHT: 
+2026-05-05 09:17:16,440 [INFO] ACTION : {"action": "scroll", "text": "down"}
+2026-05-05 09:17:16,444 [INFO] RESULT : OK: scrolled down
+2026-05-05 09:17:17,961 [INFO] === STEP 13 ===
+2026-05-05 09:17:17,961 [INFO] URL  : https://www.marketwatch.com/
+2026-05-05 09:17:17,961 [INFO] TITLE: MarketWatch: Stock Market News - Financial News - MarketWatch
+2026-05-05 09:17:17,961 [INFO] --- INDEX ---
+2026-05-05 09:17:17,961 [INFO] (없음)
+2026-05-05 09:17:18,794 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-05 09:17:18,795 [INFO] RAW (attempt 1): '{"action": "scroll", "text": "down"}'
+2026-05-05 09:17:18,795 [INFO] THOUGHT: 
+2026-05-05 09:17:18,795 [INFO] ACTION : {"action": "scroll", "text": "down"}
+2026-05-05 09:17:18,799 [INFO] RESULT : OK: scrolled down
+2026-05-05 09:17:20,314 [INFO] === STEP 14 ===
+2026-05-05 09:17:20,315 [INFO] URL  : https://www.marketwatch.com/
+2026-05-05 09:17:20,315 [INFO] TITLE: MarketWatch: Stock Market News - Financial News - MarketWatch
+2026-05-05 09:17:20,315 [INFO] --- INDEX ---
+2026-05-05 09:17:20,315 [INFO] (없음)
+2026-05-05 09:17:21,154 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-05 09:17:21,155 [INFO] RAW (attempt 1): '{"action": "scroll", "text": "down"}'
+2026-05-05 09:17:21,155 [INFO] THOUGHT: 
+2026-05-05 09:17:21,155 [INFO] ACTION : {"action": "scroll", "text": "down"}
+2026-05-05 09:17:21,159 [INFO] RESULT : OK: scrolled down
+2026-05-05 09:17:22,674 [INFO] === STEP 15 ===
+2026-05-05 09:17:22,674 [INFO] URL  : https://www.marketwatch.com/
+2026-05-05 09:17:22,674 [INFO] TITLE: MarketWatch: Stock Market News - Financial News - MarketWatch
+2026-05-05 09:17:22,675 [INFO] --- INDEX ---
+2026-05-05 09:17:22,675 [INFO] (없음)
+2026-05-05 09:17:23,498 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-05 09:17:23,499 [INFO] RAW (attempt 1): '{"action": "scroll", "text": "down"}'
+2026-05-05 09:17:23,499 [INFO] THOUGHT: 
+2026-05-05 09:17:23,499 [INFO] ACTION : {"action": "scroll", "text": "down"}
+2026-05-05 09:17:23,504 [INFO] RESULT : OK: scrolled down
+2026-05-05 09:17:25,018 [INFO] === STEP 16 ===
+2026-05-05 09:17:25,018 [INFO] URL  : https://www.marketwatch.com/
+2026-05-05 09:17:25,018 [INFO] TITLE: MarketWatch: Stock Market News - Financial News - MarketWatch
+2026-05-05 09:17:25,018 [INFO] --- INDEX ---
+2026-05-05 09:17:25,018 [INFO] (없음)
+2026-05-05 09:17:25,746 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-05 09:17:25,747 [INFO] RAW (attempt 1): '{"action": "scroll", "text": "down"}'
+2026-05-05 09:17:25,747 [INFO] THOUGHT: 
+2026-05-05 09:17:25,747 [INFO] ACTION : {"action": "scroll", "text": "down"}
+2026-05-05 09:17:25,752 [INFO] RESULT : OK: scrolled down
+2026-05-05 09:17:27,269 [INFO] === STEP 17 ===
+2026-05-05 09:17:27,270 [INFO] URL  : https://www.marketwatch.com/
+2026-05-05 09:17:27,270 [INFO] TITLE: MarketWatch: Stock Market News - Financial News - MarketWatch
+2026-05-05 09:17:27,270 [INFO] --- INDEX ---
+2026-05-05 09:17:27,270 [INFO] (없음)
+2026-05-05 09:17:28,126 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-05 09:17:28,129 [INFO] RAW (attempt 1): '{"action": "scroll", "text": "down"}'
+2026-05-05 09:17:28,129 [INFO] THOUGHT: 
+2026-05-05 09:17:28,130 [INFO] ACTION : {"action": "scroll", "text": "down"}
+2026-05-05 09:17:28,139 [INFO] RESULT : OK: scrolled down
+2026-05-05 09:17:29,658 [INFO] === STEP 18 ===
+2026-05-05 09:17:29,659 [INFO] URL  : https://www.marketwatch.com/
+2026-05-05 09:17:29,659 [INFO] TITLE: MarketWatch: Stock Market News - Financial News - MarketWatch
+2026-05-05 09:17:29,659 [INFO] --- INDEX ---
+2026-05-05 09:17:29,659 [INFO] (없음)
+2026-05-05 09:17:30,587 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-05 09:17:30,588 [INFO] RAW (attempt 1): '{"action": "scroll", "text": "down"}'
+2026-05-05 09:17:30,588 [INFO] THOUGHT: 
+2026-05-05 09:17:30,588 [INFO] ACTION : {"action": "scroll", "text": "down"}
+2026-05-05 09:17:30,592 [INFO] RESULT : OK: scrolled down
+2026-05-05 09:17:32,121 [INFO] === STEP 19 ===
+2026-05-05 09:17:32,121 [INFO] URL  : https://www.marketwatch.com/
+2026-05-05 09:17:32,122 [INFO] TITLE: MarketWatch: Stock Market News - Financial News - MarketWatch
+2026-05-05 09:17:32,122 [INFO] --- INDEX ---
+2026-05-05 09:17:32,122 [INFO] (없음)
+2026-05-05 09:17:32,846 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-05 09:17:32,850 [INFO] RAW (attempt 1): '{"action": "scroll", "text": "down"}'
+2026-05-05 09:17:32,850 [INFO] THOUGHT: 
+2026-05-05 09:17:32,850 [INFO] ACTION : {"action": "scroll", "text": "down"}
+2026-05-05 09:17:32,853 [INFO] RESULT : OK: scrolled down
+2026-05-05 09:17:34,368 [INFO] === STEP 20 ===
+2026-05-05 09:17:34,368 [INFO] URL  : https://www.marketwatch.com/
+2026-05-05 09:17:34,369 [INFO] TITLE: MarketWatch: Stock Market News - Financial News - MarketWatch
+2026-05-05 09:17:34,369 [INFO] --- INDEX ---
+2026-05-05 09:17:34,369 [INFO] (없음)
+2026-05-05 09:17:35,139 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-05 09:17:35,143 [INFO] RAW (attempt 1): '{"action": "scroll", "text": "down"}'
+2026-05-05 09:17:35,143 [INFO] THOUGHT: 
+2026-05-05 09:17:35,143 [INFO] ACTION : {"action": "scroll", "text": "down"}
+2026-05-05 09:17:35,146 [INFO] RESULT : OK: scrolled down
+2026-05-05 09:17:36,148 [WARNING] MAX_STEPS(20) 도달. 종료.
+2026-05-05 09:17:36,162 [INFO] === AGENT END ===

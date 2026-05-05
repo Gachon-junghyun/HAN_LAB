@@ -1,0 +1,37 @@
+2026-05-05 00:25:07,341 [INFO] === AGENT START ===
+2026-05-05 00:25:07,341 [INFO] log file: C:\Users\fivep\OneDrive\Desktop\HAN_LAB\experiments\browser_agent\logs\run_20260505_002507.log
+2026-05-05 00:25:07,341 [INFO] GOAL    : 검색창에 '키보드' 입력하고 검색
+2026-05-05 00:25:07,341 [INFO] PROVIDER: ollama
+2026-05-05 00:25:07,351 [INFO] MODEL   : gemma4
+2026-05-05 00:25:08,411 [INFO] START URL: https://www.coupang.com
+2026-05-05 00:25:11,419 [INFO] === STEP 1 ===
+2026-05-05 00:25:11,419 [INFO] URL  : https://www.coupang.com/
+2026-05-05 00:25:11,419 [INFO] TITLE: 로켓배송으로 빠르게, 로켓와우 멤버십으로 할인과 무료 반품까지 | 쿠팡
+2026-05-05 00:25:11,420 [INFO] --- INDEX ---
+2026-05-05 00:25:11,420 [INFO] (없음)
+2026-05-05 00:25:24,575 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-05 00:25:24,575 [INFO] RAW (attempt 1): '{"thought": "사용자 목표는 \'키보드\' 검색입니다. 현재 인터랙티브 요소가 없으므로, 페이지 내용을 확인하기 위해 스크롤을 시도합니다.", "action": "scroll", "index": null, "text": null}'
+2026-05-05 00:25:24,575 [INFO] THOUGHT: 사용자 목표는 '키보드' 검색입니다. 현재 인터랙티브 요소가 없으므로, 페이지 내용을 확인하기 위해 스크롤을 시도합니다.
+2026-05-05 00:25:24,575 [INFO] ACTION : {"action": "scroll", "index": null, "text": null}
+2026-05-05 00:25:24,581 [INFO] RESULT : OK: scrolled down
+2026-05-05 00:25:26,112 [INFO] === STEP 2 ===
+2026-05-05 00:25:26,112 [INFO] URL  : https://www.coupang.com/
+2026-05-05 00:25:26,112 [INFO] TITLE: 로켓배송으로 빠르게, 로켓와우 멤버십으로 할인과 무료 반품까지 | 쿠팡
+2026-05-05 00:25:26,112 [INFO] --- INDEX ---
+2026-05-05 00:25:26,112 [INFO] (없음)
+2026-05-05 00:25:44,092 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-05 00:25:44,092 [INFO] RAW (attempt 1): '{"thought": "여전히 인터랙티브 요소가 감지되지 않아 검색창 입력이 불가능합니다. 일단 스크롤을 한 번 더 다운하여 검색창 요소가 로드되는지 확인하겠습니다.", "action": "scroll", "index": null, "text": null}'
+2026-05-05 00:25:44,093 [INFO] THOUGHT: 여전히 인터랙티브 요소가 감지되지 않아 검색창 입력이 불가능합니다. 일단 스크롤을 한 번 더 다운하여 검색창 요소가 로드되는지 확인하겠습니다.
+2026-05-05 00:25:44,093 [INFO] ACTION : {"action": "scroll", "index": null, "text": null}
+2026-05-05 00:25:44,099 [INFO] RESULT : OK: scrolled down
+2026-05-05 00:25:45,611 [INFO] === STEP 3 ===
+2026-05-05 00:25:45,611 [INFO] URL  : https://www.coupang.com/
+2026-05-05 00:25:45,611 [INFO] TITLE: 로켓배송으로 빠르게, 로켓와우 멤버십으로 할인과 무료 반품까지 | 쿠팡
+2026-05-05 00:25:45,611 [INFO] --- INDEX ---
+2026-05-05 00:25:45,611 [INFO] (없음)
+2026-05-05 00:25:52,831 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-05 00:25:52,831 [INFO] RAW (attempt 1): '{"thought": "계속해서 인터랙티브 요소가 감지되지 않아 검색창에 \'키보드\'를 입력하는 것이 불가능합니다. 목표 달성이 불가능하다고 판단하여 검색을 중단합니다.", "action": "done", "index": null, "text": "현재 페이지에서 검색창을 찾을 수 없어 검색을 완료할 수 없습니다."}'
+2026-05-05 00:25:52,831 [INFO] THOUGHT: 계속해서 인터랙티브 요소가 감지되지 않아 검색창에 '키보드'를 입력하는 것이 불가능합니다. 목표 달성이 불가능하다고 판단하여 검색을 중단합니다.
+2026-05-05 00:25:52,832 [INFO] ACTION : {"action": "done", "index": null, "text": "현재 페이지에서 검색창을 찾을 수 없어 검색을 완료할 수 없습니다."}
+2026-05-05 00:25:52,832 [INFO] RESULT : DONE — 현재 페이지에서 검색창을 찾을 수 없어 검색을 완료할 수 없습니다.
+2026-05-05 00:25:52,850 [INFO] === AGENT END ===

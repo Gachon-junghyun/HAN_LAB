@@ -1,0 +1,27 @@
+2026-05-05 09:18:20,581 [INFO] === AGENT START ===
+2026-05-05 09:18:20,581 [INFO] log file: C:\Users\fivep\OneDrive\Desktop\HAN_LAB\experiments\browser_agent\logs\run_20260505_091820.log
+2026-05-05 09:18:20,581 [INFO] GOAL    : 현재 페이지가 Apple(AAPL) 종목 페이지면 done
+2026-05-05 09:18:20,581 [INFO] MODE    : action
+2026-05-05 09:18:20,581 [INFO] PROVIDER: gemini
+2026-05-05 09:18:20,616 [INFO] MODEL   : gemini-2.5-flash
+2026-05-05 09:18:21,997 [INFO] START URL: https://www.nasdaq.com/market-activity/stocks/aapl
+2026-05-05 09:18:22,345 [WARNING] goto 실패: Page.goto: net::ERR_BLOCKED_BY_RESPONSE at https://www.nasdaq.com/market-activity/stocks/aapl
+Call log:
+  - navigating to "https://www.nasdaq.com/market-activity/stocks/aapl", waiting until "domcontentloaded"
+ (현재 페이지 그대로 진행)
+2026-05-05 09:18:22,345 [INFO] START URL: https://www.nasdaq.com/market-activity/stocks/aapl
+2026-05-05 09:18:22,401 [WARNING] goto 실패: Page.goto: net::ERR_BLOCKED_BY_RESPONSE at https://www.nasdaq.com/market-activity/stocks/aapl
+Call log:
+  - navigating to "https://www.nasdaq.com/market-activity/stocks/aapl", waiting until "domcontentloaded"
+
+2026-05-05 09:18:22,940 [INFO] === STEP 1 ===
+2026-05-05 09:18:22,940 [INFO] URL  : chrome-error://chromewebdata/
+2026-05-05 09:18:22,940 [INFO] TITLE: www.nasdaq.com
+2026-05-05 09:18:22,940 [INFO] --- INDEX ---
+2026-05-05 09:18:22,940 [INFO] (없음)
+2026-05-05 09:18:24,496 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-05 09:18:24,498 [INFO] RAW (attempt 1): '{"thought": "현재 페이지는 에러 페이지이며, Apple(AAPL) 종목 페이지가 아니다. 목표를 달성할 수 없으므로 종료한다.", "action": "done"}'
+2026-05-05 09:18:24,498 [INFO] THOUGHT: 현재 페이지는 에러 페이지이며, Apple(AAPL) 종목 페이지가 아니다. 목표를 달성할 수 없으므로 종료한다.
+2026-05-05 09:18:24,498 [INFO] ACTION : {"action": "done"}
+2026-05-05 09:18:24,498 [INFO] RESULT : DONE — 
+2026-05-05 09:18:24,520 [INFO] === AGENT END ===

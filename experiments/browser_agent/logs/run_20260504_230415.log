@@ -1,0 +1,47 @@
+2026-05-04 23:04:15,776 [INFO] === AGENT START ===
+2026-05-04 23:04:15,776 [INFO] log file: C:\Users\fivep\OneDrive\Desktop\HAN_LAB\experiments\browser_agent\logs\run_20260504_230415.log
+2026-05-04 23:04:15,777 [INFO] GOAL    : 구글에서 'playwright cdp' 검색
+2026-05-04 23:04:15,778 [INFO] PROVIDER: ollama
+2026-05-04 23:04:15,787 [INFO] MODEL   : gemma4
+2026-05-04 23:04:17,116 [INFO] === STEP 1 ===
+2026-05-04 23:04:17,117 [INFO] URL  : https://www.google.com/search?q=playwright+cdp&sca_esv=96813d58d070a76e&sxsrf=ANbL-n7-6bWRQhGXuLHqCJONzIOucRDr6g%3A1777902904792&ei=OKX4adH0L5eO2roPpbDYmQ0&biw=1122&bih=1082&ved=0ahUKEwjR8Na45J-UAxUXh1YBHSUYNtMQ4dUDCBE&oq=playwright+cdp&gs_lp=Egxnd3Mtd2l6LXNlcnAiDnBsYXl3cmlnaHQgY2RwMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIEEAAYHjIEEAAYHjIEEAAYHjIEEAAYHjIEEAAYHjIEEAAYHkiOF1AAWABwAHgAkAEAmAF3oAF3qgEDMC4xuAEMyAEA-AEBmAIBoAJ9mAMAkgcDMC4xoAfnBLIHAzAuMbgHfcIHAzItMcgHBYAIAQ&sclient=gws-wiz-serp
+2026-05-04 23:04:17,119 [INFO] TITLE: playwright cdp - Google 검색
+2026-05-04 23:04:17,120 [INFO] --- INDEX ---
+2026-05-04 23:04:17,121 [INFO] [1]<a id="logo" aria-label="Google 홈페이지로 이동"></a>
+[2]<textarea id="APjFqb" aria-label="검색" name="q" role="combobox">playwright cdp</textarea>
+[3]<div aria-label="지우기" role="button"></div>
+[4]<div aria-label="입력 도구" role="button"></div>
+[5]<div aria-label="음성 검색" role="button"></div>
+[6]<div aria-label="이미지로 검색" role="button"></div>
+[7]<button aria-label="검색" type="submit"></button>
+[8]<a aria-label="Search Labs" role="button"></a>
+[9]<a aria-label="Google 앱" role="button"></a>
+[10]<a aria-label="Google 계정: Untitled A  
+(auntitled500@gmail.com)" role="button"></a>
+[11]<div role="navigation">AI 모드 전체 이미지 동영상 뉴스 쇼핑 짧은 동영상 더보기 도구</div>
+[12]<a>AI 모드</a>
+[13]<a role="link">전체</a>
+[14]<a>이미지</a>
+[15]<a>동영상</a>
+[16]<a>뉴스</a>
+[17]<a>쇼핑</a>
+[18]<a>짧은 동영상</a>
+[19]<div role="button">더보기</div>
+[20]<div id="hdtb-tls" role="button">도구</div>
+[21]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[22]<div aria-label="확인 링크 3개 보기" role="button">+1</div>
+[23]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[24]<a aria-label="조대협의 블로그 외 3개 - 관련 링크 보기"></a>
+[25]<div aria-label="AI 개요 더보기" role="button">더보기</div>
+[26]<a>CDPSession Playwright https://playwright.dev › docs › api › class-cdpsession</a>
+[27]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[28]<a>커스텀 브라우저, Playwright 로 자동화하기 Medium · Changjoon Baek 3개월 전</a>
+[29]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[30]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[31]<a>Closer to the Metal: Leaving Playwright for CDP Browser Use https://browser-use.</a>
+[32]<div aria-label="검색결과에 관한 정보" role="button"></div>
+2026-05-04 23:04:38,405 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-04 23:04:38,408 [INFO] THOUGHT: 사용자가 요청한 'playwright cdp' 검색이 이미 완료되어 검색 결과가 페이지에 표시되었습니다. 목표가 달성되었으므로 종료합니다.
+2026-05-04 23:04:38,408 [INFO] ACTION : {"action": "done", "index": null, "text": "구글 검색을 통해 'playwright cdp'에 대한 검색 결과 페이지에 성공적으로 도착했습니다."}
+2026-05-04 23:04:38,408 [INFO] RESULT : DONE — 구글 검색을 통해 'playwright cdp'에 대한 검색 결과 페이지에 성공적으로 도착했습니다.
+2026-05-04 23:04:38,422 [INFO] === AGENT END ===

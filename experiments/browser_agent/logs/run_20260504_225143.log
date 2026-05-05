@@ -1,0 +1,5 @@
+2026-05-04 22:51:43,182 [INFO] === AGENT START ===
+2026-05-04 22:51:43,182 [INFO] log file: C:\Users\fivep\OneDrive\Desktop\HAN_LAB\experiments\browser_agent\logs\run_20260504_225143.log
+2026-05-04 22:51:43,182 [INFO] GOAL : 구글에서 'playwright cdp' 검색해
+2026-05-04 22:51:43,182 [INFO] MODEL: gemini-2.5-flash
+2026-05-04 22:51:43,183 [ERROR] Gemini API 키가 필요합니다. 환경변수 'GEMINI_API_KEY'를 설정하거나 생성자 인자로 전달해주세요.

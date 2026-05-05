@@ -1,0 +1,18 @@
+2026-05-05 09:02:38,489 [INFO] === AGENT START ===
+2026-05-05 09:02:38,489 [INFO] log file: C:\Users\fivep\OneDrive\Desktop\HAN_LAB\experiments\browser_agent\logs\run_20260505_090238.log
+2026-05-05 09:02:38,489 [INFO] GOAL    : 현재 페이지가 비트코인(BTC) 시세 페이지면 done
+2026-05-05 09:02:38,489 [INFO] MODE    : action
+2026-05-05 09:02:38,490 [INFO] PROVIDER: gemini
+2026-05-05 09:02:38,526 [INFO] MODEL   : gemini-2.5-flash
+2026-05-05 09:02:39,893 [INFO] START URL: https://www.bithumb.com/react/coinInfo/BTC_KRW
+2026-05-05 09:02:40,355 [WARNING] goto 실패: Page.goto: Navigation to "https://www.bithumb.com/react/coinInfo/BTC_KRW" is interrupted by another navigation to "https://t1.kakaocdn.net/kas/static/third-party/cookie/ct2.html"
+Call log:
+  - navigating to "https://www.bithumb.com/react/coinInfo/BTC_KRW", waiting until "domcontentloaded"
+ (현재 페이지 그대로 진행)
+2026-05-05 09:02:40,355 [INFO] START URL: https://www.bithumb.com/react/coinInfo/BTC_KRW
+2026-05-05 09:02:40,387 [WARNING] goto 실패: Page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://www.bithumb.com/react/coinInfo/BTC_KRW", waiting until "domcontentloaded"
+
+2026-05-05 09:06:36,484 [ERROR] [INDEX FAIL] Page.evaluate: Connection closed while reading from the driver
+2026-05-05 09:06:36,496 [INFO] === AGENT END ===

@@ -1,0 +1,27 @@
+2026-05-05 09:20:13,534 [INFO] === AGENT START ===
+2026-05-05 09:20:13,535 [INFO] log file: C:\Users\fivep\OneDrive\Desktop\HAN_LAB\experiments\browser_agent\logs\run_20260505_092013.log
+2026-05-05 09:20:13,535 [INFO] GOAL    : 검색창에 'GDP' 입력하고 검색 실행
+2026-05-05 09:20:13,535 [INFO] MODE    : action
+2026-05-05 09:20:13,535 [INFO] PROVIDER: gemini
+2026-05-05 09:20:13,567 [INFO] MODEL   : gemini-2.5-flash
+2026-05-05 09:20:14,718 [INFO] START URL: https://data.worldbank.org/
+2026-05-05 09:20:14,760 [WARNING] goto 실패: Page.goto: net::ERR_BLOCKED_BY_RESPONSE at https://data.worldbank.org/
+Call log:
+  - navigating to "https://data.worldbank.org/", waiting until "domcontentloaded"
+ (현재 페이지 그대로 진행)
+2026-05-05 09:20:14,762 [INFO] START URL: https://data.worldbank.org/
+2026-05-05 09:20:14,787 [WARNING] goto 실패: Page.goto: net::ERR_BLOCKED_BY_RESPONSE at https://data.worldbank.org/
+Call log:
+  - navigating to "https://data.worldbank.org/", waiting until "domcontentloaded"
+
+2026-05-05 09:20:15,316 [INFO] === STEP 1 ===
+2026-05-05 09:20:15,316 [INFO] URL  : chrome-error://chromewebdata/
+2026-05-05 09:20:15,317 [INFO] TITLE: data.worldbank.org
+2026-05-05 09:20:15,317 [INFO] --- INDEX ---
+2026-05-05 09:20:15,317 [INFO] (없음)
+2026-05-05 09:20:17,131 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-05 09:20:17,132 [INFO] RAW (attempt 1): '{"action": "done", "thought": "현재 페이지가 로드되지 않아 인터랙티브 요소가 없으므로, 검색창에 \'GDP\'를 입력하고 검색을 실행할 수 없습니다. 목표를 달성할 수 없어 종료합니다."}'
+2026-05-05 09:20:17,133 [INFO] THOUGHT: 현재 페이지가 로드되지 않아 인터랙티브 요소가 없으므로, 검색창에 'GDP'를 입력하고 검색을 실행할 수 없습니다. 목표를 달성할 수 없어 종료합니다.
+2026-05-05 09:20:17,133 [INFO] ACTION : {"action": "done"}
+2026-05-05 09:20:17,133 [INFO] RESULT : DONE — 
+2026-05-05 09:20:17,153 [INFO] === AGENT END ===

@@ -1,0 +1,161 @@
+2026-05-04 22:56:04,791 [INFO] === AGENT START ===
+2026-05-04 22:56:04,792 [INFO] log file: C:\Users\fivep\OneDrive\Desktop\HAN_LAB\experiments\browser_agent\logs\run_20260504_225604.log
+2026-05-04 22:56:04,792 [INFO] GOAL : --url https://www.google.com playwright cdp 검색
+2026-05-04 22:56:04,792 [INFO] MODEL: gemini-2.5-flash
+2026-05-04 22:56:06,189 [INFO] === STEP 1 ===
+2026-05-04 22:56:06,189 [INFO] URL  : https://www.google.com/search?q=gd&oq=gd&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTINCAEQLhiDARixAxiABDIMCAIQABhDGIAEGIoFMgwIAxAAGEMYgAQYigUyDAgEEAAYQxiABBiKBTIMCAUQABhDGIAEGIoFMg0IBhAAGIMBGLEDGIAEMgwIBxAAGEMYgAQYigUyDAgIEAAYQxiABBiKBTIMCAkQABhDGIAEGIoF0gEJMjA2NGowajE1qAIBsAIB8QXr5PhKba8iSg&sourceid=chrome&ie=UTF-8
+2026-05-04 22:56:06,190 [INFO] TITLE: gd - Google 검색
+2026-05-04 22:56:06,190 [INFO] --- INDEX ---
+2026-05-04 22:56:06,190 [INFO] [1]<a id="logo" aria-label="Google 홈페이지로 이동"></a>
+[2]<textarea id="APjFqb" aria-label="검색" name="q" role="combobox">gd</textarea>
+[3]<div aria-label="지우기" role="button"></div>
+[4]<div aria-label="입력 도구" role="button"></div>
+[5]<div aria-label="음성 검색" role="button"></div>
+[6]<div aria-label="이미지로 검색" role="button"></div>
+[7]<button aria-label="검색" type="submit"></button>
+[8]<a aria-label="Search Labs" role="button"></a>
+[9]<a aria-label="Google 앱" role="button"></a>
+[10]<a aria-label="Google 계정: Untitled A  
+(auntitled500@gmail.com)" role="button"></a>
+[11]<div role="navigation">AI 모드 전체 이미지 동영상 짧은 동영상 뉴스 쇼핑 더보기 도구</div>
+[12]<a>AI 모드</a>
+[13]<a role="link">전체</a>
+[14]<a>이미지</a>
+[15]<a>동영상</a>
+[16]<a>짧은 동영상</a>
+[17]<a>뉴스</a>
+[18]<a>쇼핑</a>
+[19]<div role="button">더보기</div>
+[20]<div id="hdtb-tls" role="button">도구</div>
+[21]<a>G-DRAGON 나무위키 https://namu.wiki › G-DRAGON</a>
+[22]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[23]<a></a>
+[24]<button aria-label="닫기"></button>
+[25]<a>네이트 GD, '흑인 비하' 문구 티셔츠 착용 논란…소속사 "진심으로 사과" 9시간 전</a>
+[26]<span aria-label="검색결과에 관한 정보" role="button"></span>
+[27]<a>Daum GD, 의리 대박…코첼라 직전 광희에 30분 내줬다 "진짜 올 줄 몰라" [RE:뷰] 2일 전</a>
+[28]<span aria-label="검색결과에 관한 정보" role="button"></span>
+[29]<a>Daum ‘솔로지옥4’ 국동호 학폭 의혹·GD 의상 논란 사과·김창민 감독 사건 피의자 구속…오늘 연예계는?[퇴근길연예] 4시간 전</a>
+[30]<span aria-label="검색결과에 관한 정보" role="button"></span>
+[31]<a>서울신문 GD BTS 차은우 한국 최고의 포브스코리아 주관 ‘파워 셀러브리티40’ 탑3 8시간 전</a>
+[32]<span aria-label="검색결과에 관한 정보" role="button"></span>
+[33]<a>뉴스 더보기</a>
+[34]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[35]<a>G-DRAGON - 2026 'FAM' MEETING VCR #1 GD의 하루 (아이 ... YouTube · OfficialGDRAGON 20</a>
+[36]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[37]<div aria-label="OfficialGDRAGON님이 YouTube에 게시한 G-DRAGON - 2026 'FAM' MEETING VCR #1 GD의 하루 (아이 .... Google에서 재생. 5:15" role="button">5:15</div>
+[38]<a>G-Dragon (GD), Departing from Incheon International Airport ... YouTube · 뉴스엔·Ne</a>
+[39]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[40]<div aria-label="뉴스엔·Newsen님이 YouTube에 게시한 G-Dragon (GD), Departing from Incheon International Airport .... Google에서 재생. 3:18" role="button">3:18</div>
+[41]<a>[#MMA2025] G-DRAGON - DRAMA+POWER+HOME SWEET ... YouTube · 멜론 Melon 2025. 12. 21</a>
+[42]<div aria-label="멜론 Melon님이 YouTube에 게시한 [#MMA2025] G-DRAGON - DRAMA+POWER+HOME SWEET .... Google에서 재생. 17:05" role="button">17:05</div>
+[43]<a>지드래곤</a>
+[44]<div role="button"></div>
+[45]<a></a>
+[46]<div role="button"></div>
+[47]<div role="button"></div>
+[48]<div role="button"></div>
+[49]<div id="_OKX4adH0L5eO2roPpbDYmQ0_40" role="listitem"></div>
+[50]<a></a>
+[51]<a>위키백과</a>
+[52]<a>나이 37세 1988년 8월 18일</a>
+[53]<div id="_OKX4adH0L5eO2roPpbDYmQ0_63" role="button">활동 그룹</div>
+[54]<a>권다미</a>
+[55]<a>국제사이버대학교</a>
+[56]<a>세종대학교</a>
+[57]<a>국립전통예술중학교</a>
+2026-05-04 22:56:06,191 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-04 22:56:07,851 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-04 22:56:07,855 [INFO] THOUGHT: 현재 검색창에 'gd'가 입력되어 있으므로, 'playwright cdp'를 검색하기 위해 검색창(인덱스 2)에 새로운 검색어를 입력한다.
+2026-05-04 22:56:07,856 [INFO] ACTION : {"action": "type", "index": 2, "text": "playwright cdp"}
+2026-05-04 22:56:07,925 [INFO] RESULT : OK: typed into [2] -> 'playwright cdp'
+2026-05-04 22:56:09,444 [INFO] === STEP 2 ===
+2026-05-04 22:56:09,444 [INFO] URL  : https://www.google.com/search?q=gd&oq=gd&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTINCAEQLhiDARixAxiABDIMCAIQABhDGIAEGIoFMgwIAxAAGEMYgAQYigUyDAgEEAAYQxiABBiKBTIMCAUQABhDGIAEGIoFMg0IBhAAGIMBGLEDGIAEMgwIBxAAGEMYgAQYigUyDAgIEAAYQxiABBiKBTIMCAkQABhDGIAEGIoF0gEJMjA2NGowajE1qAIBsAIB8QXr5PhKba8iSg&sourceid=chrome&ie=UTF-8
+2026-05-04 22:56:09,444 [INFO] TITLE: gd - Google 검색
+2026-05-04 22:56:09,444 [INFO] --- INDEX ---
+2026-05-04 22:56:09,445 [INFO] [1]<a id="logo" aria-label="Google 홈페이지로 이동"></a>
+[2]<textarea id="APjFqb" aria-label="검색" name="q" role="combobox">playwright cdp</textarea>
+[3]<div aria-label="지우기" role="button"></div>
+[4]<button aria-label="검색" type="submit"></button>
+[5]<div role="button">부적절한 예상 검색어 신고</div>
+[6]<a aria-label="Search Labs" role="button"></a>
+[7]<a aria-label="Google 앱" role="button"></a>
+[8]<a aria-label="Google 계정: Untitled A  
+(auntitled500@gmail.com)" role="button"></a>
+[9]<a>AI 모드</a>
+[10]<a role="link">전체</a>
+[11]<a>G-DRAGON 나무위키 https://namu.wiki › G-DRAGON</a>
+[12]<a>네이트 GD, '흑인 비하' 문구 티셔츠 착용 논란…소속사 "진심으로 사과" 9시간 전</a>
+[13]<a>Daum GD, 의리 대박…코첼라 직전 광희에 30분 내줬다 "진짜 올 줄 몰라" [RE:뷰] 2일 전</a>
+[14]<a>Daum ‘솔로지옥4’ 국동호 학폭 의혹·GD 의상 논란 사과·김창민 감독 사건 피의자 구속…오늘 연예계는?[퇴근길연예] 4시간 전</a>
+[15]<span aria-label="검색결과에 관한 정보" role="button"></span>
+[16]<a>서울신문 GD BTS 차은우 한국 최고의 포브스코리아 주관 ‘파워 셀러브리티40’ 탑3 8시간 전</a>
+[17]<span aria-label="검색결과에 관한 정보" role="button"></span>
+[18]<a>뉴스 더보기</a>
+[19]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[20]<a>G-DRAGON - 2026 'FAM' MEETING VCR #1 GD의 하루 (아이 ... YouTube · OfficialGDRAGON 20</a>
+[21]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[22]<div aria-label="OfficialGDRAGON님이 YouTube에 게시한 G-DRAGON - 2026 'FAM' MEETING VCR #1 GD의 하루 (아이 .... Google에서 재생. 5:15" role="button">5:15</div>
+[23]<a>G-Dragon (GD), Departing from Incheon International Airport ... YouTube · 뉴스엔·Ne</a>
+[24]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[25]<div aria-label="뉴스엔·Newsen님이 YouTube에 게시한 G-Dragon (GD), Departing from Incheon International Airport .... Google에서 재생. 3:18" role="button">3:18</div>
+[26]<a>[#MMA2025] G-DRAGON - DRAMA+POWER+HOME SWEET ... YouTube · 멜론 Melon 2025. 12. 21</a>
+[27]<div aria-label="멜론 Melon님이 YouTube에 게시한 [#MMA2025] G-DRAGON - DRAMA+POWER+HOME SWEET .... Google에서 재생. 17:05" role="button">17:05</div>
+[28]<a></a>
+[29]<div role="button"></div>
+[30]<div role="button"></div>
+[31]<div id="_OKX4adH0L5eO2roPpbDYmQ0_40" role="listitem"></div>
+[32]<a></a>
+[33]<a>위키백과</a>
+[34]<a>나이 37세 1988년 8월 18일</a>
+[35]<div id="_OKX4adH0L5eO2roPpbDYmQ0_63" role="button">활동 그룹</div>
+[36]<a>권다미</a>
+[37]<a>국제사이버대학교</a>
+[38]<a>세종대학교</a>
+[39]<a>국립전통예술중학교</a>
+2026-05-04 22:56:09,445 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-04 22:56:10,837 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-04 22:56:10,843 [INFO] THOUGHT: 검색창에 'playwright cdp'를 입력했으므로, 이제 검색 버튼을 클릭하여 검색을 실행한다.
+2026-05-04 22:56:10,844 [INFO] ACTION : {"action": "click", "index": 4}
+2026-05-04 22:56:11,067 [INFO] RESULT : OK: clicked [4]
+2026-05-04 22:56:12,601 [INFO] === STEP 3 ===
+2026-05-04 22:56:12,601 [INFO] URL  : https://www.google.com/search?q=playwright+cdp&sca_esv=96813d58d070a76e&sxsrf=ANbL-n7-6bWRQhGXuLHqCJONzIOucRDr6g%3A1777902904792&ei=OKX4adH0L5eO2roPpbDYmQ0&biw=1122&bih=1082&ved=0ahUKEwjR8Na45J-UAxUXh1YBHSUYNtMQ4dUDCBE&oq=playwright+cdp&gs_lp=Egxnd3Mtd2l6LXNlcnAiDnBsYXl3cmlnaHQgY2RwMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIEEAAYHjIEEAAYHjIEEAAYHjIEEAAYHjIEEAAYHjIEEAAYHkiOF1AAWABwAHgAkAEAmAF3oAF3qgEDMC4xuAEMyAEA-AEBmAIBoAJ9mAMAkgcDMC4xoAfnBLIHAzAuMbgHfcIHAzItMcgHBYAIAQ&sclient=gws-wiz-serp
+2026-05-04 22:56:12,601 [INFO] TITLE: playwright cdp - Google 검색
+2026-05-04 22:56:12,601 [INFO] --- INDEX ---
+2026-05-04 22:56:12,601 [INFO] [1]<a id="logo" aria-label="Google 홈페이지로 이동"></a>
+[2]<textarea id="APjFqb" aria-label="검색" name="q" role="combobox">playwright cdp</textarea>
+[3]<div aria-label="지우기" role="button"></div>
+[4]<div aria-label="입력 도구" role="button"></div>
+[5]<div aria-label="음성 검색" role="button"></div>
+[6]<div aria-label="이미지로 검색" role="button"></div>
+[7]<button aria-label="검색" type="submit"></button>
+[8]<a aria-label="Search Labs" role="button"></a>
+[9]<a aria-label="Google 앱" role="button"></a>
+[10]<a aria-label="Google 계정: Untitled A  
+(auntitled500@gmail.com)" role="button"></a>
+[11]<div role="navigation">AI 모드 전체 이미지 동영상 뉴스 쇼핑 짧은 동영상 더보기 도구</div>
+[12]<a>AI 모드</a>
+[13]<a role="link">전체</a>
+[14]<a>이미지</a>
+[15]<a>동영상</a>
+[16]<a>뉴스</a>
+[17]<a>쇼핑</a>
+[18]<a>짧은 동영상</a>
+[19]<div role="button">더보기</div>
+[20]<div id="hdtb-tls" role="button">도구</div>
+[21]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[22]<div aria-label="확인 링크 3개 보기" role="button"></div>
+[23]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[24]<a aria-label="조대협의 블로그 외 3개 - 관련 링크 보기"></a>
+[25]<div aria-label="AI 개요 더보기" role="button">더보기</div>
+[26]<a>CDPSession Playwright https://playwright.dev › docs › api › class-cdpsession</a>
+[27]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[28]<a>커스텀 브라우저, Playwright 로 자동화하기 Medium · Changjoon Baek 3개월 전</a>
+[29]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[30]<div aria-label="검색결과에 관한 정보" role="button"></div>
+2026-05-04 22:56:12,602 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-04 22:56:13,947 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-04 22:56:13,948 [INFO] THOUGHT: 목표인 'playwright cdp 검색'이 완료되었고, 검색 결과 페이지가 성공적으로 로드되었다. 더 이상 진행할 필요가 없다.
+2026-05-04 22:56:13,949 [INFO] ACTION : {"action": "done", "text": "playwright cdp 검색 완료"}
+2026-05-04 22:56:13,949 [INFO] RESULT : DONE — playwright cdp 검색 완료
+2026-05-04 22:56:13,964 [INFO] === AGENT END ===

@@ -1,0 +1,126 @@
+2026-05-04 23:04:56,200 [INFO] === AGENT START ===
+2026-05-04 23:04:56,200 [INFO] log file: C:\Users\fivep\OneDrive\Desktop\HAN_LAB\experiments\browser_agent\logs\run_20260504_230456.log
+2026-05-04 23:04:56,200 [INFO] GOAL    : 구글에서 'playwright cdp' 검색
+2026-05-04 23:04:56,201 [INFO] PROVIDER: ollama
+2026-05-04 23:04:56,210 [INFO] MODEL   : gemma4
+2026-05-04 23:04:57,578 [INFO] === STEP 1 ===
+2026-05-04 23:04:57,578 [INFO] URL  : https://www.google.com/search?q=%EC%97%AC%EA%B8%B0%EC%9D%B8%EB%93%AF&sca_esv=96813d58d070a76e&biw=1122&bih=1234&sxsrf=ANbL-n6Z6YNyBXqMoUaRPtCKI8_IwdUZoQ%3A1777902971633&ei=e6X4afuPJvvn2roPn5f-4As&ved=0ahUKEwi7ucbY5J-UAxX7s1YBHZ-LH7wQ4dUDCBE&uact=5&oq=%EC%97%AC%EA%B8%B0%EC%9D%B8%EB%93%AF&gs_lp=Egxnd3Mtd2l6LXNlcnAiDOyXrOq4sOyduOuTrzIFEAAYgAQyCxAuGIAEGMcBGK8BMgUQABiABDIEEAAYHjIEEAAYHjIEEAAYHjIEEAAYHjIGEAAYBRgeMgYQABgFGB4yBhAAGAUYHkirIVDpCFjCIHAIeAGQAQKYAacBoAGGDqoBBDAuMTO4AQPIAQD4AQGYAg-gArEIqAIDwgIKEAAYRxjWBBiwA8ICBxAjGOoCGCfCAgoQABiABBiKBRhDwgILEC4YgAQYxwEY0QPCAgsQABiABBixAxiDAcICBxAuGIAEGArCAg0QLhiABBjHARjRAxgKwgIREC4YgAQYsQMYgwEYxwEY0QPCAgQQABgDwgIIEAAYgAQYsQPCAgcQABiABBgKwgIREC4YgAQYsQMYgwEYxwEYrwHCAgUQLhiABJgDA_EFAUt7Tz9r4E-IBgGQBgqSBwM4LjegB7RksgcDMC43uAeRCMIHCDAuMi4xMS4yyAdGgAgB&sclient=gws-wiz-serp
+2026-05-04 23:04:57,580 [INFO] TITLE: 여기인듯 - Google 검색
+2026-05-04 23:04:57,580 [INFO] --- INDEX ---
+2026-05-04 23:04:57,580 [INFO] [1]<a id="logo" aria-label="Google 홈페이지로 이동"></a>
+[2]<textarea id="APjFqb" aria-label="검색" name="q" role="combobox">여기인듯</textarea>
+[3]<div aria-label="지우기" role="button"></div>
+[4]<div aria-label="입력 도구" role="button"></div>
+[5]<div aria-label="음성 검색" role="button"></div>
+[6]<div aria-label="이미지로 검색" role="button"></div>
+[7]<button aria-label="검색" type="submit"></button>
+[8]<a aria-label="Search Labs" role="button"></a>
+[9]<a aria-label="Google 앱" role="button"></a>
+[10]<a aria-label="Google 계정: Untitled A  
+(auntitled500@gmail.com)" role="button"></a>
+[11]<div role="navigation">AI 모드 전체 이미지 동영상 쇼핑 뉴스 짧은 동영상 더보기 도구</div>
+[12]<a>AI 모드</a>
+[13]<a role="link">전체</a>
+[14]<a>이미지</a>
+[15]<a>동영상</a>
+[16]<a>쇼핑</a>
+[17]<a>뉴스</a>
+[18]<a>짧은 동영상</a>
+[19]<div role="button">더보기</div>
+[20]<div id="hdtb-tls" role="button">도구</div>
+[21]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[22]<a aria-label="Instagram 외 3개 - 관련 링크 보기"></a>
+[23]<a aria-label="올해는 벚꽃이 제일 멋진곳이 여기인듯 - Instagram. 새 탭에서 열립니다."></a>
+[24]<div id="snui-atr-hKf4aYCfE7Ca2roP9sLJoQ4_33" aria-label="검색 결과 정보" role="button"></div>
+[25]<div aria-label="AI 개요 더보기" role="button">더보기</div>
+[26]<a>여기인듯! Threads https://www.threads.com › @fofiko319</a>
+[27]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[28]<div role="button"></div>
+[29]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[30]<div role="button"></div>
+[31]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[32]<div role="button"></div>
+[33]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[34]<div role="button">이미지 더보기</div>
+[35]<a>올해는 벚꽃이 제일 멋진곳이 여기인듯 Instagram · kyohunjin 좋아요 10개 이상 · 1개월 전</a>
+[36]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[37]<a></a>
+2026-05-04 23:05:06,435 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-04 23:05:06,435 [INFO] THOUGHT: 사용자의 목표는 'playwright cdp' 검색이므로, 현재 검색창에 있는 내용을 지우고 목표 검색어를 입력해야 한다. 검색창은 인덱스 [2]번이다.
+2026-05-04 23:05:06,439 [INFO] ACTION : {"action": "type", "index": 2, "text": "playwright cdp"}
+2026-05-04 23:05:06,504 [INFO] RESULT : OK: typed into [2] -> 'playwright cdp'
+2026-05-04 23:05:08,023 [INFO] === STEP 2 ===
+2026-05-04 23:05:08,024 [INFO] URL  : https://www.google.com/search?q=%EC%97%AC%EA%B8%B0%EC%9D%B8%EB%93%AF&sca_esv=96813d58d070a76e&biw=1122&bih=1234&sxsrf=ANbL-n6Z6YNyBXqMoUaRPtCKI8_IwdUZoQ%3A1777902971633&ei=e6X4afuPJvvn2roPn5f-4As&ved=0ahUKEwi7ucbY5J-UAxX7s1YBHZ-LH7wQ4dUDCBE&uact=5&oq=%EC%97%AC%EA%B8%B0%EC%9D%B8%EB%93%AF&gs_lp=Egxnd3Mtd2l6LXNlcnAiDOyXrOq4sOyduOuTrzIFEAAYgAQyCxAuGIAEGMcBGK8BMgUQABiABDIEEAAYHjIEEAAYHjIEEAAYHjIEEAAYHjIGEAAYBRgeMgYQABgFGB4yBhAAGAUYHkirIVDpCFjCIHAIeAGQAQKYAacBoAGGDqoBBDAuMTO4AQPIAQD4AQGYAg-gArEIqAIDwgIKEAAYRxjWBBiwA8ICBxAjGOoCGCfCAgoQABiABBiKBRhDwgILEC4YgAQYxwEY0QPCAgsQABiABBixAxiDAcICBxAuGIAEGArCAg0QLhiABBjHARjRAxgKwgIREC4YgAQYsQMYgwEYxwEY0QPCAgQQABgDwgIIEAAYgAQYsQPCAgcQABiABBgKwgIREC4YgAQYsQMYgwEYxwEYrwHCAgUQLhiABJgDA_EFAUt7Tz9r4E-IBgGQBgqSBwM4LjegB7RksgcDMC43uAeRCMIHCDAuMi4xMS4yyAdGgAgB&sclient=gws-wiz-serp
+2026-05-04 23:05:08,027 [INFO] TITLE: 여기인듯 - Google 검색
+2026-05-04 23:05:08,028 [INFO] --- INDEX ---
+2026-05-04 23:05:08,029 [INFO] [1]<a id="logo" aria-label="Google 홈페이지로 이동"></a>
+[2]<textarea id="APjFqb" aria-label="검색" name="q" role="combobox">playwright cdp</textarea>
+[3]<div aria-label="지우기" role="button"></div>
+[4]<button aria-label="검색" type="submit"></button>
+[5]<div id="MFb78d" aria-label="검색 기록에서 playwright cdp 삭제" role="button"></div>
+[6]<div role="button">부적절한 예상 검색어 신고</div>
+[7]<a aria-label="Search Labs" role="button"></a>
+[8]<a aria-label="Google 앱" role="button"></a>
+[9]<a aria-label="Google 계정: Untitled A  
+(auntitled500@gmail.com)" role="button"></a>
+[10]<a>AI 모드</a>
+[11]<a role="link">전체</a>
+[12]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[13]<div id="snui-atr-hKf4aYCfE7Ca2roP9sLJoQ4_33" aria-label="검색 결과 정보" role="button"></div>
+[14]<div aria-label="AI 개요 더보기" role="button">더보기</div>
+[15]<a>여기인듯! Threads https://www.threads.com › @fofiko319</a>
+[16]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[17]<div role="button"></div>
+[18]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[19]<div role="button"></div>
+[20]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[21]<div role="button"></div>
+[22]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[23]<div role="button">이미지 더보기</div>
+[24]<a>올해는 벚꽃이 제일 멋진곳이 여기인듯 Instagram · kyohunjin 좋아요 10개 이상 · 1개월 전</a>
+[25]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[26]<a></a>
+2026-05-04 23:05:10,581 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-04 23:05:10,582 [INFO] THOUGHT: 검색창에 목표 키워드 'playwright cdp'를 입력했으므로, 이제 [4]번 '검색' 버튼을 클릭하여 검색을 실행해야 한다.
+2026-05-04 23:05:10,588 [INFO] ACTION : {"action": "click", "index": 4}
+2026-05-04 23:05:10,798 [INFO] RESULT : OK: clicked [4]
+2026-05-04 23:05:12,539 [INFO] === STEP 3 ===
+2026-05-04 23:05:12,539 [INFO] URL  : https://www.google.com/search?q=playwright+cdp&sca_esv=96813d58d070a76e&biw=1122&bih=1234&sxsrf=ANbL-n5gWIwJn5j7ZyAfizZYI554Uw8F_A%3A1777903491974&ei=g6f4aY3-OpWk0-kPkcmBkAo&ved=0ahUKEwjNy9XQ5p-UAxUV0jQHHZFkAKIQ4dUDCBE&oq=playwright+cdp&gs_lp=Egxnd3Mtd2l6LXNlcnAiDnBsYXl3cmlnaHQgY2RwMgoQIxiABBiKBRgnMgUQABiABDIFEAAYgAQyBRAAGIAEMgQQABgeMgQQABgeMgQQABgeMgQQABgeMgQQABgeMgQQABgeSKAgUABYAHAAeACQAQCYAfkBoAH5AaoBAzItMbgBDMgBAPgBAZgCAaAC_gGYAwCSBwMyLTGgB9wFsgcDMi0xuAf-AcIHAzItMcgHBIAIAQ&sclient=gws-wiz-serp
+2026-05-04 23:05:12,543 [INFO] TITLE: playwright cdp - Google 검색
+2026-05-04 23:05:12,547 [INFO] --- INDEX ---
+2026-05-04 23:05:12,548 [INFO] [1]<a id="logo" aria-label="Google 홈페이지로 이동"></a>
+[2]<textarea id="APjFqb" aria-label="검색" name="q" role="combobox">playwright cdp</textarea>
+[3]<div aria-label="지우기" role="button"></div>
+[4]<div aria-label="입력 도구" role="button"></div>
+[5]<div aria-label="음성 검색" role="button"></div>
+[6]<div aria-label="이미지로 검색" role="button"></div>
+[7]<button aria-label="검색" type="submit"></button>
+[8]<a aria-label="Search Labs" role="button"></a>
+[9]<a aria-label="Google 앱" role="button"></a>
+[10]<a aria-label="Google 계정: Untitled A  
+(auntitled500@gmail.com)" role="button"></a>
+[11]<div role="navigation">AI 모드 전체 이미지 동영상 뉴스 쇼핑 짧은 동영상 더보기 도구</div>
+[12]<a>AI 모드</a>
+[13]<a role="link">전체</a>
+[14]<a>이미지</a>
+[15]<a>동영상</a>
+[16]<a>뉴스</a>
+[17]<a>쇼핑</a>
+[18]<a>짧은 동영상</a>
+[19]<div role="button">더보기</div>
+[20]<div id="hdtb-tls" role="button">도구</div>
+[21]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[22]<div aria-label="확인 링크 3개 보기" role="button"></div>
+[23]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[24]<a aria-label="조대협의 블로그 외 3개 - 관련 링크 보기"></a>
+[25]<div aria-label="AI 개요 더보기" role="button">더보기</div>
+[26]<a>CDPSession Playwright https://playwright.dev › docs › api › class-cdpsession</a>
+[27]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[28]<a>커스텀 브라우저, Playwright 로 자동화하기 Medium · Changjoon Baek 3개월 전</a>
+[29]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[30]<div aria-label="검색결과에 관한 정보" role="button"></div>
+[31]<a>Closer to the Metal: Leaving Playwright for CDP Browser Use https://browser-use.</a>
+[32]<div aria-label="검색결과에 관한 정보" role="button"></div>
+2026-05-04 23:05:17,700 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-04 23:05:17,700 [ERROR] [LLM FAIL] Expecting value: line 1 column 1 (char 0)
+2026-05-04 23:05:17,713 [INFO] === AGENT END ===
