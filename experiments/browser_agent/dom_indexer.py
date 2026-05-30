@@ -7,7 +7,13 @@ import time
 
 JS_INDEX = r"""
 (() => {
-  const SEL = 'a, button, input, select, textarea, [role="button"], [onclick], [tabindex], [contenteditable=""], [contenteditable="true"]';
+  // SEL: ARIA role 기반 SPA(트위터/X, 일부 React UI)에서 role="link"/"tab"/"searchbox" 같은
+  //      div를 클릭/입력 가능 요소로 노출하는 경우가 많아 추가. data-testid="tweet"는 X 트윗 카드.
+  const SEL = 'a, button, input, select, textarea, ' +
+              '[role="button"], [role="link"], [role="tab"], [role="menuitem"], ' +
+              '[role="option"], [role="searchbox"], [role="textbox"], [role="combobox"], ' +
+              '[role="article"], [data-testid="tweet"], ' +
+              '[onclick], [tabindex], [contenteditable=""], [contenteditable="true"]';
 
   const isVisible = (el) => {
     const style = getComputedStyle(el);

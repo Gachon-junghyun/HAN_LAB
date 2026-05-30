@@ -15,3 +15,21 @@ gemini_check.md
 .claude/
 test_ohlcv_cache/
 ohlcv_cache/
+
+# Windows 바로가기
+*.lnk
+
+# 대용량 미디어 (GitHub 100MB 제한)
+experiments/youtube_whisper/downloads/
+
+# browser_agent 실행 산출물 (로그/노트/생성물)
+experiments/browser_agent/logs/
+experiments/browser_agent/notes/
+experiments/browser_agent/briefings/
+experiments/browser_agent/research/
+experiments/browser_agent/scenarios/*_results_*.md
+experiments/browser_agent/scenarios/*_test_*.md
+
+# insight_pipeline 실행 로그
+experiments/insight_pipeline/data/*.log
+experiments/insight_pipeline/data/*.err
